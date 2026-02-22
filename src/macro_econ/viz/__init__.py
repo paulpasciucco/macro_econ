@@ -9,6 +9,7 @@ from macro_econ.viz.charts import (
     stacked_bar_contributions,
     stl_plot,
 )
+from macro_econ.viz.viewer import MacroViewer
 from macro_econ.viz.widgets import (
     build_tree_widget,
     date_range_picker,
@@ -28,4 +29,5 @@ __all__ = [
     "series_selector",
     "transform_selector",
     "date_range_picker",
+    "MacroViewer",
 ]
