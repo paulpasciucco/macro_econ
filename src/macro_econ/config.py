@@ -41,3 +41,34 @@ def nipa_table_variants(section: int, family: int) -> dict[str, str]:
     """Return {metric_name: table_code} for all standard NIPA metric types."""
     base = f"T{section}{family:02d}"
     return {name: f"{base}{suffix}" for name, suffix in NIPA_METRICS.items()}
+
+
+def check_api_keys() -> dict[str, bool]:
+    """Check which API keys are configured and print a status summary.
+
+    Returns:
+        Dict mapping API name to whether a key is present.
+    """
+    keys = {
+        "FRED": bool(FRED_API_KEY),
+        "BEA": bool(BEA_API_KEY),
+        "BLS": bool(BLS_API_KEY),
+    }
+
+    registration_urls = {
+        "FRED": "https://fred.stlouisfed.org/docs/api/api_key.html",
+        "BEA": "https://apps.bea.gov/API/signup/",
+        "BLS": "https://data.bls.gov/registrationEngine/",
+    }
+
+    for name, configured in keys.items():
+        status = "OK" if configured else "MISSING"
+        line = f"  {name:5s} {status}"
+        if not configured:
+            line += f"  -> Register at {registration_urls[name]}"
+        print(line)
+
+    if not keys["BLS"]:
+        print("\n  Note: BLS works without a key (v1) but is limited to 25 series/10 years.")
+
+    return keys

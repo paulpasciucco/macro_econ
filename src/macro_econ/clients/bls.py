@@ -18,6 +18,11 @@ from macro_econ.config import (
 )
 from macro_econ.series.node import SeriesNode
 
+# BLS v1 (no key) limits
+_BLS_V1_URL = "https://api.bls.gov/publicAPI/v1/timeseries/data/"
+_BLS_V1_MAX_SERIES = 25
+_BLS_V1_MAX_YEARS = 10
+
 logger = logging.getLogger(__name__)
 
 
@@ -33,25 +38,35 @@ class BlsClient(BaseClient):
     def __init__(self, api_key: str | None = None, **kwargs: object):
         super().__init__(rate_limit_delay=0.5, **kwargs)
         self.api_key = api_key or BLS_API_KEY
-        if not self.api_key:
-            raise ValueError(
-                "BLS API key required. Set BLS_API_KEY in .env or pass api_key parameter."
+        if self.api_key:
+            self._url = BLS_API_URL
+            self._max_series = BLS_MAX_SERIES_PER_REQUEST
+            self._max_years = BLS_MAX_YEARS_PER_REQUEST
+        else:
+            logger.warning(
+                "No BLS API key configured — using v1 endpoint "
+                "(25 series/request, 10 years max). "
+                "Register at https://data.bls.gov/registrationEngine/"
             )
+            self._url = _BLS_V1_URL
+            self._max_series = _BLS_V1_MAX_SERIES
+            self._max_years = _BLS_V1_MAX_YEARS
 
     def _post(self, series_ids: list[str], start_year: int, end_year: int) -> dict:
         """Make a POST request to the BLS API."""
-        payload = {
+        payload: dict = {
             "seriesid": series_ids,
             "startyear": str(start_year),
             "endyear": str(end_year),
-            "registrationkey": self.api_key,
         }
+        if self.api_key:
+            payload["registrationkey"] = self.api_key
         self._rate_limit()
         logger.info(
             "BLS API request: %d series, %d-%d", len(series_ids), start_year, end_year
         )
         resp = requests.post(
-            BLS_API_URL,
+            self._url,
             json=payload,
             headers={"Content-type": "application/json"},
             timeout=60,
@@ -112,7 +127,7 @@ class BlsClient(BaseClient):
             DataFrame with DatetimeIndex and 'value' column.
         """
         now = datetime.now()
-        start_year = int(start_date[:4]) if start_date else now.year - BLS_MAX_YEARS_PER_REQUEST
+        start_year = int(start_date[:4]) if start_date else now.year - self._max_years
         end_year = int(end_date[:4]) if end_date else now.year
 
         cache_key = make_key("bls", series_id, start=start_year, end=end_year)
@@ -140,7 +155,7 @@ class BlsClient(BaseClient):
             Dict mapping series_id -> DataFrame.
         """
         now = datetime.now()
-        sy = start_year or (now.year - BLS_MAX_YEARS_PER_REQUEST)
+        sy = start_year or (now.year - self._max_years)
         ey = end_year or now.year
 
         results: dict[str, pd.DataFrame] = {}
@@ -156,8 +171,8 @@ class BlsClient(BaseClient):
                 to_fetch.append(sid)
 
         # Fetch remaining in batches
-        for i in range(0, len(to_fetch), BLS_MAX_SERIES_PER_REQUEST):
-            batch = to_fetch[i : i + BLS_MAX_SERIES_PER_REQUEST]
+        for i in range(0, len(to_fetch), self._max_series):
+            batch = to_fetch[i : i + self._max_series]
             data = self._post(batch, sy, ey)
 
             for series_entry in data["Results"]["series"]:
