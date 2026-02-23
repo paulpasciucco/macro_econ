@@ -1,0 +1,312 @@
+bls_item_code,item_name,series_id_cpi_u_nsa,series_id_cpi_u_sa,series_id_cpi_w_nsa,series_id_cpi_w_sa,api_url_v2,data_viewer_url
+SA0,All items,CUUR0000SA0,CUSR0000SA0,CWUR0000SA0,CWSR0000SA0,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0,https://data.bls.gov/timeseries/CUUR0000SA0
+SA0E,Energy,CUUR0000SA0E,CUSR0000SA0E,CWUR0000SA0E,CWSR0000SA0E,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0E,https://data.bls.gov/timeseries/CUUR0000SA0E
+SA0L1,All items less food,CUUR0000SA0L1,CUSR0000SA0L1,CWUR0000SA0L1,CWSR0000SA0L1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0L1,https://data.bls.gov/timeseries/CUUR0000SA0L1
+SA0L12,All items less food and shelter,CUUR0000SA0L12,CUSR0000SA0L12,CWUR0000SA0L12,CWSR0000SA0L12,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0L12,https://data.bls.gov/timeseries/CUUR0000SA0L12
+SA0L1E,All items less food and energy,CUUR0000SA0L1E,CUSR0000SA0L1E,CWUR0000SA0L1E,CWSR0000SA0L1E,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0L1E,https://data.bls.gov/timeseries/CUUR0000SA0L1E
+SA0L2,All items less shelter,CUUR0000SA0L2,CUSR0000SA0L2,CWUR0000SA0L2,CWSR0000SA0L2,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0L2,https://data.bls.gov/timeseries/CUUR0000SA0L2
+SA0L5,All items less medical care,CUUR0000SA0L5,CUSR0000SA0L5,CWUR0000SA0L5,CWSR0000SA0L5,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0L5,https://data.bls.gov/timeseries/CUUR0000SA0L5
+SA0LE,All items less energy,CUUR0000SA0LE,CUSR0000SA0LE,CWUR0000SA0LE,CWSR0000SA0LE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0LE,https://data.bls.gov/timeseries/CUUR0000SA0LE
+SAC,Commodities,CUUR0000SAC,CUSR0000SAC,CWUR0000SAC,CWSR0000SAC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAC,https://data.bls.gov/timeseries/CUUR0000SAC
+SACE,Energy commodities,CUUR0000SACE,CUSR0000SACE,CWUR0000SACE,CWSR0000SACE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SACE,https://data.bls.gov/timeseries/CUUR0000SACE
+SACL1,Commodities less food,CUUR0000SACL1,CUSR0000SACL1,CWUR0000SACL1,CWSR0000SACL1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SACL1,https://data.bls.gov/timeseries/CUUR0000SACL1
+SACL11,Commodities less food and beverages,CUUR0000SACL11,CUSR0000SACL11,CWUR0000SACL11,CWSR0000SACL11,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SACL11,https://data.bls.gov/timeseries/CUUR0000SACL11
+SACL1E,Commodities less food and energy commodities,CUUR0000SACL1E,CUSR0000SACL1E,CWUR0000SACL1E,CWSR0000SACL1E,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SACL1E,https://data.bls.gov/timeseries/CUUR0000SACL1E
+SAD,Durables,CUUR0000SAD,CUSR0000SAD,CWUR0000SAD,CWSR0000SAD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAD,https://data.bls.gov/timeseries/CUUR0000SAD
+SAN,Nondurables,CUUR0000SAN,CUSR0000SAN,CWUR0000SAN,CWSR0000SAN,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAN,https://data.bls.gov/timeseries/CUUR0000SAN
+SAN1D,Domestically produced farm food,CUUR0000SAN1D,CUSR0000SAN1D,CWUR0000SAN1D,CWSR0000SAN1D,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAN1D,https://data.bls.gov/timeseries/CUUR0000SAN1D
+SANL1,Nondurables less food,CUUR0000SANL1,CUSR0000SANL1,CWUR0000SANL1,CWSR0000SANL1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SANL1,https://data.bls.gov/timeseries/CUUR0000SANL1
+SANL11,Nondurables less food and beverages,CUUR0000SANL11,CUSR0000SANL11,CWUR0000SANL11,CWSR0000SANL11,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SANL11,https://data.bls.gov/timeseries/CUUR0000SANL11
+SANL113,"Nondurables less food, beverages, and apparel",CUUR0000SANL113,CUSR0000SANL113,CWUR0000SANL113,CWSR0000SANL113,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SANL113,https://data.bls.gov/timeseries/CUUR0000SANL113
+SANL13,Nondurables less food and apparel,CUUR0000SANL13,CUSR0000SANL13,CWUR0000SANL13,CWSR0000SANL13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SANL13,https://data.bls.gov/timeseries/CUUR0000SANL13
+SAS,Services,CUUR0000SAS,CUSR0000SAS,CWUR0000SAS,CWSR0000SAS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAS,https://data.bls.gov/timeseries/CUUR0000SAS
+SAS24,Utilities and public transportation,CUUR0000SAS24,CUSR0000SAS24,CWUR0000SAS24,CWSR0000SAS24,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAS24,https://data.bls.gov/timeseries/CUUR0000SAS24
+SAS2RS,Rent of shelter,CUUR0000SAS2RS,CUSR0000SAS2RS,CWUR0000SAS2RS,CWSR0000SAS2RS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAS2RS,https://data.bls.gov/timeseries/CUUR0000SAS2RS
+SAS367,Other services,CUUR0000SAS367,CUSR0000SAS367,CWUR0000SAS367,CWSR0000SAS367,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAS367,https://data.bls.gov/timeseries/CUUR0000SAS367
+SAS4,Transportation services,CUUR0000SAS4,CUSR0000SAS4,CWUR0000SAS4,CWSR0000SAS4,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAS4,https://data.bls.gov/timeseries/CUUR0000SAS4
+SASL2RS,Services less rent of shelter,CUUR0000SASL2RS,CUSR0000SASL2RS,CWUR0000SASL2RS,CWSR0000SASL2RS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SASL2RS,https://data.bls.gov/timeseries/CUUR0000SASL2RS
+SASL5,Services less medical care services,CUUR0000SASL5,CUSR0000SASL5,CWUR0000SASL5,CWSR0000SASL5,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SASL5,https://data.bls.gov/timeseries/CUUR0000SASL5
+SASLE,Services less energy services,CUUR0000SASLE,CUSR0000SASLE,CWUR0000SASLE,CWSR0000SASLE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SASLE,https://data.bls.gov/timeseries/CUUR0000SASLE
+SAF,Food and beverages,CUUR0000SAF,CUSR0000SAF,CWUR0000SAF,CWSR0000SAF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF,https://data.bls.gov/timeseries/CUUR0000SAF
+SAF1,Food,CUUR0000SAF1,CUSR0000SAF1,CWUR0000SAF1,CWSR0000SAF1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF1,https://data.bls.gov/timeseries/CUUR0000SAF1
+SAF11,Food at home,CUUR0000SAF11,CUSR0000SAF11,CWUR0000SAF11,CWSR0000SAF11,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF11,https://data.bls.gov/timeseries/CUUR0000SAF11
+SAF111,Cereals and bakery products,CUUR0000SAF111,CUSR0000SAF111,CWUR0000SAF111,CWSR0000SAF111,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF111,https://data.bls.gov/timeseries/CUUR0000SAF111
+SAF112,"Meats, poultry, fish, and eggs",CUUR0000SAF112,CUSR0000SAF112,CWUR0000SAF112,CWSR0000SAF112,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF112,https://data.bls.gov/timeseries/CUUR0000SAF112
+SAF1121,"Meats, poultry, and fish",CUUR0000SAF1121,CUSR0000SAF1121,CWUR0000SAF1121,CWSR0000SAF1121,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF1121,https://data.bls.gov/timeseries/CUUR0000SAF1121
+SAF11211,Meats,CUUR0000SAF11211,CUSR0000SAF11211,CWUR0000SAF11211,CWSR0000SAF11211,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF11211,https://data.bls.gov/timeseries/CUUR0000SAF11211
+SAF113,Fruits and vegetables,CUUR0000SAF113,CUSR0000SAF113,CWUR0000SAF113,CWSR0000SAF113,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF113,https://data.bls.gov/timeseries/CUUR0000SAF113
+SAF1131,Fresh fruits and vegetables,CUUR0000SAF1131,CUSR0000SAF1131,CWUR0000SAF1131,CWSR0000SAF1131,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF1131,https://data.bls.gov/timeseries/CUUR0000SAF1131
+SAF114,Nonalcoholic beverages and beverage materials,CUUR0000SAF114,CUSR0000SAF114,CWUR0000SAF114,CWSR0000SAF114,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF114,https://data.bls.gov/timeseries/CUUR0000SAF114
+SAF115,Other food at home,CUUR0000SAF115,CUSR0000SAF115,CWUR0000SAF115,CWSR0000SAF115,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF115,https://data.bls.gov/timeseries/CUUR0000SAF115
+SAF116,Alcoholic beverages,CUUR0000SAF116,CUSR0000SAF116,CWUR0000SAF116,CWSR0000SAF116,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF116,https://data.bls.gov/timeseries/CUUR0000SAF116
+SEFV,Food away from home,CUUR0000SEFV,CUSR0000SEFV,CWUR0000SEFV,CWSR0000SEFV,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFV,https://data.bls.gov/timeseries/CUUR0000SEFV
+SEFV01,Full service meals and snacks,CUUR0000SEFV01,CUSR0000SEFV01,CWUR0000SEFV01,CWSR0000SEFV01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFV01,https://data.bls.gov/timeseries/CUUR0000SEFV01
+SEFV02,Limited service meals and snacks,CUUR0000SEFV02,CUSR0000SEFV02,CWUR0000SEFV02,CWSR0000SEFV02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFV02,https://data.bls.gov/timeseries/CUUR0000SEFV02
+SEFV03,Food at employee sites and schools,CUUR0000SEFV03,CUSR0000SEFV03,CWUR0000SEFV03,CWSR0000SEFV03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFV03,https://data.bls.gov/timeseries/CUUR0000SEFV03
+SEFV04,Food from vending machines and mobile vendors,CUUR0000SEFV04,CUSR0000SEFV04,CWUR0000SEFV04,CWSR0000SEFV04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFV04,https://data.bls.gov/timeseries/CUUR0000SEFV04
+SEFV05,Other food away from home,CUUR0000SEFV05,CUSR0000SEFV05,CWUR0000SEFV05,CWSR0000SEFV05,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFV05,https://data.bls.gov/timeseries/CUUR0000SEFV05
+SEFA,Cereals and cereal products,CUUR0000SEFA,CUSR0000SEFA,CWUR0000SEFA,CWSR0000SEFA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFA,https://data.bls.gov/timeseries/CUUR0000SEFA
+SEFA01,Flour and prepared flour mixes,CUUR0000SEFA01,CUSR0000SEFA01,CWUR0000SEFA01,CWSR0000SEFA01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFA01,https://data.bls.gov/timeseries/CUUR0000SEFA01
+SEFA02,Breakfast cereal,CUUR0000SEFA02,CUSR0000SEFA02,CWUR0000SEFA02,CWSR0000SEFA02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFA02,https://data.bls.gov/timeseries/CUUR0000SEFA02
+SEFA03,"Rice, pasta, cornmeal",CUUR0000SEFA03,CUSR0000SEFA03,CWUR0000SEFA03,CWSR0000SEFA03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFA03,https://data.bls.gov/timeseries/CUUR0000SEFA03
+SEFB,Bakery products,CUUR0000SEFB,CUSR0000SEFB,CWUR0000SEFB,CWSR0000SEFB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFB,https://data.bls.gov/timeseries/CUUR0000SEFB
+SEFB01,Bread,CUUR0000SEFB01,CUSR0000SEFB01,CWUR0000SEFB01,CWSR0000SEFB01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFB01,https://data.bls.gov/timeseries/CUUR0000SEFB01
+SEFB02,"Fresh biscuits, rolls, muffins",CUUR0000SEFB02,CUSR0000SEFB02,CWUR0000SEFB02,CWSR0000SEFB02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFB02,https://data.bls.gov/timeseries/CUUR0000SEFB02
+SEFB03,"Cakes, cupcakes, and cookies",CUUR0000SEFB03,CUSR0000SEFB03,CWUR0000SEFB03,CWSR0000SEFB03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFB03,https://data.bls.gov/timeseries/CUUR0000SEFB03
+SEFB04,Other bakery products,CUUR0000SEFB04,CUSR0000SEFB04,CWUR0000SEFB04,CWSR0000SEFB04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFB04,https://data.bls.gov/timeseries/CUUR0000SEFB04
+SEFC,Beef and veal,CUUR0000SEFC,CUSR0000SEFC,CWUR0000SEFC,CWSR0000SEFC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFC,https://data.bls.gov/timeseries/CUUR0000SEFC
+SEFC01,Uncooked ground beef,CUUR0000SEFC01,CUSR0000SEFC01,CWUR0000SEFC01,CWSR0000SEFC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFC01,https://data.bls.gov/timeseries/CUUR0000SEFC01
+SEFC02,Uncooked beef roasts,CUUR0000SEFC02,CUSR0000SEFC02,CWUR0000SEFC02,CWSR0000SEFC02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFC02,https://data.bls.gov/timeseries/CUUR0000SEFC02
+SEFC03,Uncooked beef steaks,CUUR0000SEFC03,CUSR0000SEFC03,CWUR0000SEFC03,CWSR0000SEFC03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFC03,https://data.bls.gov/timeseries/CUUR0000SEFC03
+SEFC04,Uncooked other beef and veal,CUUR0000SEFC04,CUSR0000SEFC04,CWUR0000SEFC04,CWSR0000SEFC04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFC04,https://data.bls.gov/timeseries/CUUR0000SEFC04
+SEFD,Pork,CUUR0000SEFD,CUSR0000SEFD,CWUR0000SEFD,CWSR0000SEFD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFD,https://data.bls.gov/timeseries/CUUR0000SEFD
+SEFD01,"Bacon, breakfast sausage, and related products",CUUR0000SEFD01,CUSR0000SEFD01,CWUR0000SEFD01,CWSR0000SEFD01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFD01,https://data.bls.gov/timeseries/CUUR0000SEFD01
+SEFD02,Ham,CUUR0000SEFD02,CUSR0000SEFD02,CWUR0000SEFD02,CWSR0000SEFD02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFD02,https://data.bls.gov/timeseries/CUUR0000SEFD02
+SEFD03,Pork chops,CUUR0000SEFD03,CUSR0000SEFD03,CWUR0000SEFD03,CWSR0000SEFD03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFD03,https://data.bls.gov/timeseries/CUUR0000SEFD03
+SEFD04,"Other pork including roasts, steaks, and ribs",CUUR0000SEFD04,CUSR0000SEFD04,CWUR0000SEFD04,CWSR0000SEFD04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFD04,https://data.bls.gov/timeseries/CUUR0000SEFD04
+SEFE,Other meats,CUUR0000SEFE,CUSR0000SEFE,CWUR0000SEFE,CWSR0000SEFE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFE,https://data.bls.gov/timeseries/CUUR0000SEFE
+SEFF,Poultry,CUUR0000SEFF,CUSR0000SEFF,CWUR0000SEFF,CWSR0000SEFF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFF,https://data.bls.gov/timeseries/CUUR0000SEFF
+SEFF01,Chicken,CUUR0000SEFF01,CUSR0000SEFF01,CWUR0000SEFF01,CWSR0000SEFF01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFF01,https://data.bls.gov/timeseries/CUUR0000SEFF01
+SEFF02,Other uncooked poultry including turkey,CUUR0000SEFF02,CUSR0000SEFF02,CWUR0000SEFF02,CWSR0000SEFF02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFF02,https://data.bls.gov/timeseries/CUUR0000SEFF02
+SEFG,Fish and seafood,CUUR0000SEFG,CUSR0000SEFG,CWUR0000SEFG,CWSR0000SEFG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFG,https://data.bls.gov/timeseries/CUUR0000SEFG
+SEFG01,Fresh fish and seafood,CUUR0000SEFG01,CUSR0000SEFG01,CWUR0000SEFG01,CWSR0000SEFG01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFG01,https://data.bls.gov/timeseries/CUUR0000SEFG01
+SEFG02,Processed fish and seafood,CUUR0000SEFG02,CUSR0000SEFG02,CWUR0000SEFG02,CWSR0000SEFG02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFG02,https://data.bls.gov/timeseries/CUUR0000SEFG02
+SEFH,Eggs,CUUR0000SEFH,CUSR0000SEFH,CWUR0000SEFH,CWSR0000SEFH,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFH,https://data.bls.gov/timeseries/CUUR0000SEFH
+SEFJ,Dairy and related products,CUUR0000SEFJ,CUSR0000SEFJ,CWUR0000SEFJ,CWSR0000SEFJ,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFJ,https://data.bls.gov/timeseries/CUUR0000SEFJ
+SEFJ01,Milk,CUUR0000SEFJ01,CUSR0000SEFJ01,CWUR0000SEFJ01,CWSR0000SEFJ01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFJ01,https://data.bls.gov/timeseries/CUUR0000SEFJ01
+SEFJ02,Cheese and related products,CUUR0000SEFJ02,CUSR0000SEFJ02,CWUR0000SEFJ02,CWSR0000SEFJ02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFJ02,https://data.bls.gov/timeseries/CUUR0000SEFJ02
+SEFJ03,Ice cream and related products,CUUR0000SEFJ03,CUSR0000SEFJ03,CWUR0000SEFJ03,CWSR0000SEFJ03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFJ03,https://data.bls.gov/timeseries/CUUR0000SEFJ03
+SEFJ04,Other dairy and related products,CUUR0000SEFJ04,CUSR0000SEFJ04,CWUR0000SEFJ04,CWSR0000SEFJ04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFJ04,https://data.bls.gov/timeseries/CUUR0000SEFJ04
+SEFK,Fresh fruits,CUUR0000SEFK,CUSR0000SEFK,CWUR0000SEFK,CWSR0000SEFK,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFK,https://data.bls.gov/timeseries/CUUR0000SEFK
+SEFK01,Apples,CUUR0000SEFK01,CUSR0000SEFK01,CWUR0000SEFK01,CWSR0000SEFK01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFK01,https://data.bls.gov/timeseries/CUUR0000SEFK01
+SEFK02,Bananas,CUUR0000SEFK02,CUSR0000SEFK02,CWUR0000SEFK02,CWSR0000SEFK02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFK02,https://data.bls.gov/timeseries/CUUR0000SEFK02
+SEFK03,Citrus fruits,CUUR0000SEFK03,CUSR0000SEFK03,CWUR0000SEFK03,CWSR0000SEFK03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFK03,https://data.bls.gov/timeseries/CUUR0000SEFK03
+SEFK04,Other fresh fruits,CUUR0000SEFK04,CUSR0000SEFK04,CWUR0000SEFK04,CWSR0000SEFK04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFK04,https://data.bls.gov/timeseries/CUUR0000SEFK04
+SEFL,Fresh vegetables,CUUR0000SEFL,CUSR0000SEFL,CWUR0000SEFL,CWSR0000SEFL,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFL,https://data.bls.gov/timeseries/CUUR0000SEFL
+SEFL01,Potatoes,CUUR0000SEFL01,CUSR0000SEFL01,CWUR0000SEFL01,CWSR0000SEFL01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFL01,https://data.bls.gov/timeseries/CUUR0000SEFL01
+SEFL02,Lettuce,CUUR0000SEFL02,CUSR0000SEFL02,CWUR0000SEFL02,CWSR0000SEFL02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFL02,https://data.bls.gov/timeseries/CUUR0000SEFL02
+SEFL03,Tomatoes,CUUR0000SEFL03,CUSR0000SEFL03,CWUR0000SEFL03,CWSR0000SEFL03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFL03,https://data.bls.gov/timeseries/CUUR0000SEFL03
+SEFL04,Other fresh vegetables,CUUR0000SEFL04,CUSR0000SEFL04,CWUR0000SEFL04,CWSR0000SEFL04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFL04,https://data.bls.gov/timeseries/CUUR0000SEFL04
+SEFM,Processed fruits and vegetables,CUUR0000SEFM,CUSR0000SEFM,CWUR0000SEFM,CWSR0000SEFM,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFM,https://data.bls.gov/timeseries/CUUR0000SEFM
+SEFM01,Canned fruits and vegetables,CUUR0000SEFM01,CUSR0000SEFM01,CWUR0000SEFM01,CWSR0000SEFM01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFM01,https://data.bls.gov/timeseries/CUUR0000SEFM01
+SEFM02,Frozen fruits and vegetables,CUUR0000SEFM02,CUSR0000SEFM02,CWUR0000SEFM02,CWSR0000SEFM02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFM02,https://data.bls.gov/timeseries/CUUR0000SEFM02
+SEFM03,Other processed fruits and vegetables including dried,CUUR0000SEFM03,CUSR0000SEFM03,CWUR0000SEFM03,CWSR0000SEFM03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFM03,https://data.bls.gov/timeseries/CUUR0000SEFM03
+SEFN,Juices and nonalcoholic drinks,CUUR0000SEFN,CUSR0000SEFN,CWUR0000SEFN,CWSR0000SEFN,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFN,https://data.bls.gov/timeseries/CUUR0000SEFN
+SEFN01,Carbonated drinks,CUUR0000SEFN01,CUSR0000SEFN01,CWUR0000SEFN01,CWSR0000SEFN01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFN01,https://data.bls.gov/timeseries/CUUR0000SEFN01
+SEFN02,Frozen noncarbonated juices and drinks,CUUR0000SEFN02,CUSR0000SEFN02,CWUR0000SEFN02,CWSR0000SEFN02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFN02,https://data.bls.gov/timeseries/CUUR0000SEFN02
+SEFN03,Nonfrozen noncarbonated juices and drinks,CUUR0000SEFN03,CUSR0000SEFN03,CWUR0000SEFN03,CWSR0000SEFN03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFN03,https://data.bls.gov/timeseries/CUUR0000SEFN03
+SEFP,Beverage materials including coffee and tea,CUUR0000SEFP,CUSR0000SEFP,CWUR0000SEFP,CWSR0000SEFP,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFP,https://data.bls.gov/timeseries/CUUR0000SEFP
+SEFP01,Coffee,CUUR0000SEFP01,CUSR0000SEFP01,CWUR0000SEFP01,CWSR0000SEFP01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFP01,https://data.bls.gov/timeseries/CUUR0000SEFP01
+SEFP02,Other beverage materials including tea,CUUR0000SEFP02,CUSR0000SEFP02,CWUR0000SEFP02,CWSR0000SEFP02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFP02,https://data.bls.gov/timeseries/CUUR0000SEFP02
+SEFR,Sugar and sweets,CUUR0000SEFR,CUSR0000SEFR,CWUR0000SEFR,CWSR0000SEFR,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFR,https://data.bls.gov/timeseries/CUUR0000SEFR
+SEFR01,Sugar and artificial sweeteners,CUUR0000SEFR01,CUSR0000SEFR01,CWUR0000SEFR01,CWSR0000SEFR01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFR01,https://data.bls.gov/timeseries/CUUR0000SEFR01
+SEFR02,Candy and chewing gum,CUUR0000SEFR02,CUSR0000SEFR02,CWUR0000SEFR02,CWSR0000SEFR02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFR02,https://data.bls.gov/timeseries/CUUR0000SEFR02
+SEFR03,Other sweets,CUUR0000SEFR03,CUSR0000SEFR03,CWUR0000SEFR03,CWSR0000SEFR03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFR03,https://data.bls.gov/timeseries/CUUR0000SEFR03
+SEFS,Fats and oils,CUUR0000SEFS,CUSR0000SEFS,CWUR0000SEFS,CWSR0000SEFS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFS,https://data.bls.gov/timeseries/CUUR0000SEFS
+SEFS01,Butter and margarine,CUUR0000SEFS01,CUSR0000SEFS01,CWUR0000SEFS01,CWSR0000SEFS01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFS01,https://data.bls.gov/timeseries/CUUR0000SEFS01
+SEFS02,Salad dressing,CUUR0000SEFS02,CUSR0000SEFS02,CWUR0000SEFS02,CWSR0000SEFS02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFS02,https://data.bls.gov/timeseries/CUUR0000SEFS02
+SEFS03,Other fats and oils including peanut butter,CUUR0000SEFS03,CUSR0000SEFS03,CWUR0000SEFS03,CWSR0000SEFS03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFS03,https://data.bls.gov/timeseries/CUUR0000SEFS03
+SEFT,Other foods,CUUR0000SEFT,CUSR0000SEFT,CWUR0000SEFT,CWSR0000SEFT,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT,https://data.bls.gov/timeseries/CUUR0000SEFT
+SEFT01,Soups,CUUR0000SEFT01,CUSR0000SEFT01,CWUR0000SEFT01,CWSR0000SEFT01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT01,https://data.bls.gov/timeseries/CUUR0000SEFT01
+SEFT02,Frozen and freeze dried prepared foods,CUUR0000SEFT02,CUSR0000SEFT02,CWUR0000SEFT02,CWSR0000SEFT02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT02,https://data.bls.gov/timeseries/CUUR0000SEFT02
+SEFT03,Snacks,CUUR0000SEFT03,CUSR0000SEFT03,CWUR0000SEFT03,CWSR0000SEFT03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT03,https://data.bls.gov/timeseries/CUUR0000SEFT03
+SEFT04,"Spices, seasonings, condiments, sauces",CUUR0000SEFT04,CUSR0000SEFT04,CWUR0000SEFT04,CWSR0000SEFT04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT04,https://data.bls.gov/timeseries/CUUR0000SEFT04
+SEFT05,Baby food and formula,CUUR0000SEFT05,CUSR0000SEFT05,CWUR0000SEFT05,CWSR0000SEFT05,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT05,https://data.bls.gov/timeseries/CUUR0000SEFT05
+SEFT06,Other miscellaneous foods,CUUR0000SEFT06,CUSR0000SEFT06,CWUR0000SEFT06,CWSR0000SEFT06,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFT06,https://data.bls.gov/timeseries/CUUR0000SEFT06
+SEFW,Alcoholic beverages at home,CUUR0000SEFW,CUSR0000SEFW,CWUR0000SEFW,CWSR0000SEFW,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFW,https://data.bls.gov/timeseries/CUUR0000SEFW
+SEFW01,"Beer, ale, and other malt beverages at home",CUUR0000SEFW01,CUSR0000SEFW01,CWUR0000SEFW01,CWSR0000SEFW01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFW01,https://data.bls.gov/timeseries/CUUR0000SEFW01
+SEFW02,Distilled spirits at home,CUUR0000SEFW02,CUSR0000SEFW02,CWUR0000SEFW02,CWSR0000SEFW02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFW02,https://data.bls.gov/timeseries/CUUR0000SEFW02
+SEFW03,Wine at home,CUUR0000SEFW03,CUSR0000SEFW03,CWUR0000SEFW03,CWSR0000SEFW03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFW03,https://data.bls.gov/timeseries/CUUR0000SEFW03
+SEFX,Alcoholic beverages away from home,CUUR0000SEFX,CUSR0000SEFX,CWUR0000SEFX,CWSR0000SEFX,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEFX,https://data.bls.gov/timeseries/CUUR0000SEFX
+SAH,Housing,CUUR0000SAH,CUSR0000SAH,CWUR0000SAH,CWSR0000SAH,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAH,https://data.bls.gov/timeseries/CUUR0000SAH
+SAH1,Shelter,CUUR0000SAH1,CUSR0000SAH1,CWUR0000SAH1,CWSR0000SAH1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAH1,https://data.bls.gov/timeseries/CUUR0000SAH1
+SAH2,Fuels and utilities,CUUR0000SAH2,CUSR0000SAH2,CWUR0000SAH2,CWSR0000SAH2,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAH2,https://data.bls.gov/timeseries/CUUR0000SAH2
+SAH21,Household energy,CUUR0000SAH21,CUSR0000SAH21,CWUR0000SAH21,CWSR0000SAH21,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAH21,https://data.bls.gov/timeseries/CUUR0000SAH21
+SAH3,Household furnishings and operations,CUUR0000SAH3,CUSR0000SAH3,CWUR0000SAH3,CWSR0000SAH3,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAH3,https://data.bls.gov/timeseries/CUUR0000SAH3
+SAH31,Household furnishings and supplies,CUUR0000SAH31,CUSR0000SAH31,CWUR0000SAH31,CWSR0000SAH31,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAH31,https://data.bls.gov/timeseries/CUUR0000SAH31
+SEHA,Rent of primary residence,CUUR0000SEHA,CUSR0000SEHA,CWUR0000SEHA,CWSR0000SEHA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHA,https://data.bls.gov/timeseries/CUUR0000SEHA
+SEHB,Lodging away from home,CUUR0000SEHB,CUSR0000SEHB,CWUR0000SEHB,CWSR0000SEHB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHB,https://data.bls.gov/timeseries/CUUR0000SEHB
+SEHB01,"Housing at school, excluding board",CUUR0000SEHB01,CUSR0000SEHB01,CWUR0000SEHB01,CWSR0000SEHB01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHB01,https://data.bls.gov/timeseries/CUUR0000SEHB01
+SEHB02,Other lodging away from home including hotels and motels,CUUR0000SEHB02,CUSR0000SEHB02,CWUR0000SEHB02,CWSR0000SEHB02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHB02,https://data.bls.gov/timeseries/CUUR0000SEHB02
+SEHC,Owners' equivalent rent of residences,CUUR0000SEHC,CUSR0000SEHC,CWUR0000SEHC,CWSR0000SEHC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHC,https://data.bls.gov/timeseries/CUUR0000SEHC
+SEHC01,Owners' equivalent rent of primary residence,CUUR0000SEHC01,CUSR0000SEHC01,CWUR0000SEHC01,CWSR0000SEHC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHC01,https://data.bls.gov/timeseries/CUUR0000SEHC01
+SEHD,Tenants' and household insurance,CUUR0000SEHD,CUSR0000SEHD,CWUR0000SEHD,CWSR0000SEHD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHD,https://data.bls.gov/timeseries/CUUR0000SEHD
+SEHE,Fuel oil and other fuels,CUUR0000SEHE,CUSR0000SEHE,CWUR0000SEHE,CWSR0000SEHE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHE,https://data.bls.gov/timeseries/CUUR0000SEHE
+SEHE01,Fuel oil,CUUR0000SEHE01,CUSR0000SEHE01,CWUR0000SEHE01,CWSR0000SEHE01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHE01,https://data.bls.gov/timeseries/CUUR0000SEHE01
+SEHE02,"Propane, kerosene, and firewood",CUUR0000SEHE02,CUSR0000SEHE02,CWUR0000SEHE02,CWSR0000SEHE02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHE02,https://data.bls.gov/timeseries/CUUR0000SEHE02
+SEHF,Energy services,CUUR0000SEHF,CUSR0000SEHF,CWUR0000SEHF,CWSR0000SEHF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHF,https://data.bls.gov/timeseries/CUUR0000SEHF
+SEHF01,Electricity,CUUR0000SEHF01,CUSR0000SEHF01,CWUR0000SEHF01,CWSR0000SEHF01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHF01,https://data.bls.gov/timeseries/CUUR0000SEHF01
+SEHF02,Utility (piped) gas service,CUUR0000SEHF02,CUSR0000SEHF02,CWUR0000SEHF02,CWSR0000SEHF02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHF02,https://data.bls.gov/timeseries/CUUR0000SEHF02
+SEHG,Water and sewer and trash collection services,CUUR0000SEHG,CUSR0000SEHG,CWUR0000SEHG,CWSR0000SEHG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHG,https://data.bls.gov/timeseries/CUUR0000SEHG
+SEHG01,Water and sewerage maintenance,CUUR0000SEHG01,CUSR0000SEHG01,CWUR0000SEHG01,CWSR0000SEHG01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHG01,https://data.bls.gov/timeseries/CUUR0000SEHG01
+SEHG02,Garbage and trash collection,CUUR0000SEHG02,CUSR0000SEHG02,CWUR0000SEHG02,CWSR0000SEHG02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHG02,https://data.bls.gov/timeseries/CUUR0000SEHG02
+SEHH,Window and floor coverings and other linens,CUUR0000SEHH,CUSR0000SEHH,CWUR0000SEHH,CWSR0000SEHH,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHH,https://data.bls.gov/timeseries/CUUR0000SEHH
+SEHH01,Floor coverings,CUUR0000SEHH01,CUSR0000SEHH01,CWUR0000SEHH01,CWSR0000SEHH01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHH01,https://data.bls.gov/timeseries/CUUR0000SEHH01
+SEHH02,Window coverings,CUUR0000SEHH02,CUSR0000SEHH02,CWUR0000SEHH02,CWSR0000SEHH02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHH02,https://data.bls.gov/timeseries/CUUR0000SEHH02
+SEHH03,Other linens,CUUR0000SEHH03,CUSR0000SEHH03,CWUR0000SEHH03,CWSR0000SEHH03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHH03,https://data.bls.gov/timeseries/CUUR0000SEHH03
+SEHJ,Furniture and bedding,CUUR0000SEHJ,CUSR0000SEHJ,CWUR0000SEHJ,CWSR0000SEHJ,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHJ,https://data.bls.gov/timeseries/CUUR0000SEHJ
+SEHJ01,Bedroom furniture,CUUR0000SEHJ01,CUSR0000SEHJ01,CWUR0000SEHJ01,CWSR0000SEHJ01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHJ01,https://data.bls.gov/timeseries/CUUR0000SEHJ01
+SEHJ02,"Living room, kitchen, and dining room furniture",CUUR0000SEHJ02,CUSR0000SEHJ02,CWUR0000SEHJ02,CWSR0000SEHJ02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHJ02,https://data.bls.gov/timeseries/CUUR0000SEHJ02
+SEHJ03,Other furniture,CUUR0000SEHJ03,CUSR0000SEHJ03,CWUR0000SEHJ03,CWSR0000SEHJ03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHJ03,https://data.bls.gov/timeseries/CUUR0000SEHJ03
+SEHK,Appliances,CUUR0000SEHK,CUSR0000SEHK,CWUR0000SEHK,CWSR0000SEHK,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHK,https://data.bls.gov/timeseries/CUUR0000SEHK
+SEHK01,Major appliances,CUUR0000SEHK01,CUSR0000SEHK01,CWUR0000SEHK01,CWSR0000SEHK01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHK01,https://data.bls.gov/timeseries/CUUR0000SEHK01
+SEHK02,Other appliances,CUUR0000SEHK02,CUSR0000SEHK02,CWUR0000SEHK02,CWSR0000SEHK02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHK02,https://data.bls.gov/timeseries/CUUR0000SEHK02
+SEHL,Other household equipment and furnishings,CUUR0000SEHL,CUSR0000SEHL,CWUR0000SEHL,CWSR0000SEHL,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHL,https://data.bls.gov/timeseries/CUUR0000SEHL
+SEHL01,"Clocks, lamps, and decorator items",CUUR0000SEHL01,CUSR0000SEHL01,CWUR0000SEHL01,CWSR0000SEHL01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHL01,https://data.bls.gov/timeseries/CUUR0000SEHL01
+SEHL02,Indoor plants and flowers,CUUR0000SEHL02,CUSR0000SEHL02,CWUR0000SEHL02,CWSR0000SEHL02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHL02,https://data.bls.gov/timeseries/CUUR0000SEHL02
+SEHL03,Dishes and flatware,CUUR0000SEHL03,CUSR0000SEHL03,CWUR0000SEHL03,CWSR0000SEHL03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHL03,https://data.bls.gov/timeseries/CUUR0000SEHL03
+SEHL04,Nonelectric cookware and tableware,CUUR0000SEHL04,CUSR0000SEHL04,CWUR0000SEHL04,CWSR0000SEHL04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHL04,https://data.bls.gov/timeseries/CUUR0000SEHL04
+SEHM,"Tools, hardware, outdoor equipment and supplies",CUUR0000SEHM,CUSR0000SEHM,CWUR0000SEHM,CWSR0000SEHM,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHM,https://data.bls.gov/timeseries/CUUR0000SEHM
+SEHM01,"Tools, hardware and supplies",CUUR0000SEHM01,CUSR0000SEHM01,CWUR0000SEHM01,CWSR0000SEHM01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHM01,https://data.bls.gov/timeseries/CUUR0000SEHM01
+SEHM02,Outdoor equipment and supplies,CUUR0000SEHM02,CUSR0000SEHM02,CWUR0000SEHM02,CWSR0000SEHM02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHM02,https://data.bls.gov/timeseries/CUUR0000SEHM02
+SEHN,Housekeeping supplies,CUUR0000SEHN,CUSR0000SEHN,CWUR0000SEHN,CWSR0000SEHN,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHN,https://data.bls.gov/timeseries/CUUR0000SEHN
+SEHN01,Household cleaning products,CUUR0000SEHN01,CUSR0000SEHN01,CWUR0000SEHN01,CWSR0000SEHN01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHN01,https://data.bls.gov/timeseries/CUUR0000SEHN01
+SEHN02,Household paper products,CUUR0000SEHN02,CUSR0000SEHN02,CWUR0000SEHN02,CWSR0000SEHN02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHN02,https://data.bls.gov/timeseries/CUUR0000SEHN02
+SEHN03,Miscellaneous household products,CUUR0000SEHN03,CUSR0000SEHN03,CWUR0000SEHN03,CWSR0000SEHN03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHN03,https://data.bls.gov/timeseries/CUUR0000SEHN03
+SEHP,Household operations,CUUR0000SEHP,CUSR0000SEHP,CWUR0000SEHP,CWSR0000SEHP,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHP,https://data.bls.gov/timeseries/CUUR0000SEHP
+SEHP01,Domestic services,CUUR0000SEHP01,CUSR0000SEHP01,CWUR0000SEHP01,CWSR0000SEHP01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHP01,https://data.bls.gov/timeseries/CUUR0000SEHP01
+SEHP02,Gardening and lawn care services,CUUR0000SEHP02,CUSR0000SEHP02,CWUR0000SEHP02,CWSR0000SEHP02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHP02,https://data.bls.gov/timeseries/CUUR0000SEHP02
+SEHP03,"Moving, storage, freight expense",CUUR0000SEHP03,CUSR0000SEHP03,CWUR0000SEHP03,CWSR0000SEHP03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHP03,https://data.bls.gov/timeseries/CUUR0000SEHP03
+SEHP04,Repair of household items,CUUR0000SEHP04,CUSR0000SEHP04,CWUR0000SEHP04,CWSR0000SEHP04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHP04,https://data.bls.gov/timeseries/CUUR0000SEHP04
+SAA,Apparel,CUUR0000SAA,CUSR0000SAA,CWUR0000SAA,CWSR0000SAA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAA,https://data.bls.gov/timeseries/CUUR0000SAA
+SAA1,Men's and boys' apparel,CUUR0000SAA1,CUSR0000SAA1,CWUR0000SAA1,CWSR0000SAA1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAA1,https://data.bls.gov/timeseries/CUUR0000SAA1
+SAA2,Women's and girls' apparel,CUUR0000SAA2,CUSR0000SAA2,CWUR0000SAA2,CWSR0000SAA2,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAA2,https://data.bls.gov/timeseries/CUUR0000SAA2
+SA311,Apparel less footwear,CUUR0000SA311,CUSR0000SA311,CWUR0000SA311,CWSR0000SA311,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA311,https://data.bls.gov/timeseries/CUUR0000SA311
+SEAA,Men's apparel,CUUR0000SEAA,CUSR0000SEAA,CWUR0000SEAA,CWSR0000SEAA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAA,https://data.bls.gov/timeseries/CUUR0000SEAA
+SEAA01,"Men's suits, sport coats, and outerwear",CUUR0000SEAA01,CUSR0000SEAA01,CWUR0000SEAA01,CWSR0000SEAA01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAA01,https://data.bls.gov/timeseries/CUUR0000SEAA01
+SEAA02,Men's furnishings,CUUR0000SEAA02,CUSR0000SEAA02,CWUR0000SEAA02,CWSR0000SEAA02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAA02,https://data.bls.gov/timeseries/CUUR0000SEAA02
+SEAA03,Men's shirts and sweaters,CUUR0000SEAA03,CUSR0000SEAA03,CWUR0000SEAA03,CWSR0000SEAA03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAA03,https://data.bls.gov/timeseries/CUUR0000SEAA03
+SEAA04,Men's pants and shorts,CUUR0000SEAA04,CUSR0000SEAA04,CWUR0000SEAA04,CWSR0000SEAA04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAA04,https://data.bls.gov/timeseries/CUUR0000SEAA04
+SEAB,Boys' apparel,CUUR0000SEAB,CUSR0000SEAB,CWUR0000SEAB,CWSR0000SEAB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAB,https://data.bls.gov/timeseries/CUUR0000SEAB
+SEAC,Women's apparel,CUUR0000SEAC,CUSR0000SEAC,CWUR0000SEAC,CWSR0000SEAC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAC,https://data.bls.gov/timeseries/CUUR0000SEAC
+SEAC01,Women's outerwear,CUUR0000SEAC01,CUSR0000SEAC01,CWUR0000SEAC01,CWSR0000SEAC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAC01,https://data.bls.gov/timeseries/CUUR0000SEAC01
+SEAC02,Women's dresses,CUUR0000SEAC02,CUSR0000SEAC02,CWUR0000SEAC02,CWSR0000SEAC02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAC02,https://data.bls.gov/timeseries/CUUR0000SEAC02
+SEAC03,Women's suits and separates,CUUR0000SEAC03,CUSR0000SEAC03,CWUR0000SEAC03,CWSR0000SEAC03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAC03,https://data.bls.gov/timeseries/CUUR0000SEAC03
+SEAC04,"Women's underwear, nightwear, sportswear and accessories",CUUR0000SEAC04,CUSR0000SEAC04,CWUR0000SEAC04,CWSR0000SEAC04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAC04,https://data.bls.gov/timeseries/CUUR0000SEAC04
+SEAD,Girls' apparel,CUUR0000SEAD,CUSR0000SEAD,CWUR0000SEAD,CWSR0000SEAD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAD,https://data.bls.gov/timeseries/CUUR0000SEAD
+SEAE,Footwear,CUUR0000SEAE,CUSR0000SEAE,CWUR0000SEAE,CWSR0000SEAE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAE,https://data.bls.gov/timeseries/CUUR0000SEAE
+SEAE01,Men's footwear,CUUR0000SEAE01,CUSR0000SEAE01,CWUR0000SEAE01,CWSR0000SEAE01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAE01,https://data.bls.gov/timeseries/CUUR0000SEAE01
+SEAE02,Boys' and girls' footwear,CUUR0000SEAE02,CUSR0000SEAE02,CWUR0000SEAE02,CWSR0000SEAE02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAE02,https://data.bls.gov/timeseries/CUUR0000SEAE02
+SEAE03,Women's footwear,CUUR0000SEAE03,CUSR0000SEAE03,CWUR0000SEAE03,CWSR0000SEAE03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAE03,https://data.bls.gov/timeseries/CUUR0000SEAE03
+SEAF,Infants' and toddlers' apparel,CUUR0000SEAF,CUSR0000SEAF,CWUR0000SEAF,CWSR0000SEAF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAF,https://data.bls.gov/timeseries/CUUR0000SEAF
+SEAG,Jewelry and watches,CUUR0000SEAG,CUSR0000SEAG,CWUR0000SEAG,CWSR0000SEAG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAG,https://data.bls.gov/timeseries/CUUR0000SEAG
+SEAG01,Watches,CUUR0000SEAG01,CUSR0000SEAG01,CWUR0000SEAG01,CWSR0000SEAG01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAG01,https://data.bls.gov/timeseries/CUUR0000SEAG01
+SEAG02,Jewelry,CUUR0000SEAG02,CUSR0000SEAG02,CWUR0000SEAG02,CWSR0000SEAG02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEAG02,https://data.bls.gov/timeseries/CUUR0000SEAG02
+SAT,Transportation,CUUR0000SAT,CUSR0000SAT,CWUR0000SAT,CWSR0000SAT,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAT,https://data.bls.gov/timeseries/CUUR0000SAT
+SAT1,Private transportation,CUUR0000SAT1,CUSR0000SAT1,CWUR0000SAT1,CWSR0000SAT1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAT1,https://data.bls.gov/timeseries/CUUR0000SAT1
+SATCLTB,Transportation commodities less motor fuel,CUUR0000SATCLTB,CUSR0000SATCLTB,CWUR0000SATCLTB,CWSR0000SATCLTB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SATCLTB,https://data.bls.gov/timeseries/CUUR0000SATCLTB
+SETA,New and used motor vehicles,CUUR0000SETA,CUSR0000SETA,CWUR0000SETA,CWSR0000SETA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETA,https://data.bls.gov/timeseries/CUUR0000SETA
+SETA01,New vehicles,CUUR0000SETA01,CUSR0000SETA01,CWUR0000SETA01,CWSR0000SETA01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETA01,https://data.bls.gov/timeseries/CUUR0000SETA01
+SETA02,Used cars and trucks,CUUR0000SETA02,CUSR0000SETA02,CWUR0000SETA02,CWSR0000SETA02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETA02,https://data.bls.gov/timeseries/CUUR0000SETA02
+SETA03,Leased cars and trucks,CUUR0000SETA03,CUSR0000SETA03,CWUR0000SETA03,CWSR0000SETA03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETA03,https://data.bls.gov/timeseries/CUUR0000SETA03
+SETA04,Car and truck rental,CUUR0000SETA04,CUSR0000SETA04,CWUR0000SETA04,CWSR0000SETA04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETA04,https://data.bls.gov/timeseries/CUUR0000SETA04
+SETB,Motor fuel,CUUR0000SETB,CUSR0000SETB,CWUR0000SETB,CWSR0000SETB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETB,https://data.bls.gov/timeseries/CUUR0000SETB
+SETB01,Gasoline (all types),CUUR0000SETB01,CUSR0000SETB01,CWUR0000SETB01,CWSR0000SETB01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETB01,https://data.bls.gov/timeseries/CUUR0000SETB01
+SETB02,Other motor fuels,CUUR0000SETB02,CUSR0000SETB02,CWUR0000SETB02,CWSR0000SETB02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETB02,https://data.bls.gov/timeseries/CUUR0000SETB02
+SETC,Motor vehicle parts and equipment,CUUR0000SETC,CUSR0000SETC,CWUR0000SETC,CWSR0000SETC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETC,https://data.bls.gov/timeseries/CUUR0000SETC
+SETC01,Tires,CUUR0000SETC01,CUSR0000SETC01,CWUR0000SETC01,CWSR0000SETC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETC01,https://data.bls.gov/timeseries/CUUR0000SETC01
+SETC02,Vehicle accessories other than tires,CUUR0000SETC02,CUSR0000SETC02,CWUR0000SETC02,CWSR0000SETC02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETC02,https://data.bls.gov/timeseries/CUUR0000SETC02
+SETD,Motor vehicle maintenance and repair,CUUR0000SETD,CUSR0000SETD,CWUR0000SETD,CWSR0000SETD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETD,https://data.bls.gov/timeseries/CUUR0000SETD
+SETD01,Motor vehicle body work,CUUR0000SETD01,CUSR0000SETD01,CWUR0000SETD01,CWSR0000SETD01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETD01,https://data.bls.gov/timeseries/CUUR0000SETD01
+SETD02,Motor vehicle maintenance and servicing,CUUR0000SETD02,CUSR0000SETD02,CWUR0000SETD02,CWSR0000SETD02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETD02,https://data.bls.gov/timeseries/CUUR0000SETD02
+SETD03,Motor vehicle repair,CUUR0000SETD03,CUSR0000SETD03,CWUR0000SETD03,CWSR0000SETD03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETD03,https://data.bls.gov/timeseries/CUUR0000SETD03
+SETE,Motor vehicle insurance,CUUR0000SETE,CUSR0000SETE,CWUR0000SETE,CWSR0000SETE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETE,https://data.bls.gov/timeseries/CUUR0000SETE
+SETF,Motor vehicle fees,CUUR0000SETF,CUSR0000SETF,CWUR0000SETF,CWSR0000SETF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETF,https://data.bls.gov/timeseries/CUUR0000SETF
+SETF01,State motor vehicle registration and license fees,CUUR0000SETF01,CUSR0000SETF01,CWUR0000SETF01,CWSR0000SETF01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETF01,https://data.bls.gov/timeseries/CUUR0000SETF01
+SETF03,Parking and other fees,CUUR0000SETF03,CUSR0000SETF03,CWUR0000SETF03,CWSR0000SETF03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETF03,https://data.bls.gov/timeseries/CUUR0000SETF03
+SETG,Public transportation,CUUR0000SETG,CUSR0000SETG,CWUR0000SETG,CWSR0000SETG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETG,https://data.bls.gov/timeseries/CUUR0000SETG
+SETG01,Airline fare,CUUR0000SETG01,CUSR0000SETG01,CWUR0000SETG01,CWSR0000SETG01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETG01,https://data.bls.gov/timeseries/CUUR0000SETG01
+SETG02,Other intercity transportation,CUUR0000SETG02,CUSR0000SETG02,CWUR0000SETG02,CWSR0000SETG02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETG02,https://data.bls.gov/timeseries/CUUR0000SETG02
+SETG03,Intracity transportation,CUUR0000SETG03,CUSR0000SETG03,CWUR0000SETG03,CWSR0000SETG03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SETG03,https://data.bls.gov/timeseries/CUUR0000SETG03
+SAM,Medical care,CUUR0000SAM,CUSR0000SAM,CWUR0000SAM,CWSR0000SAM,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAM,https://data.bls.gov/timeseries/CUUR0000SAM
+SAM1,Medical care commodities,CUUR0000SAM1,CUSR0000SAM1,CWUR0000SAM1,CWSR0000SAM1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAM1,https://data.bls.gov/timeseries/CUUR0000SAM1
+SAM2,Medical care services,CUUR0000SAM2,CUSR0000SAM2,CWUR0000SAM2,CWSR0000SAM2,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAM2,https://data.bls.gov/timeseries/CUUR0000SAM2
+SEMC,Professional services,CUUR0000SEMC,CUSR0000SEMC,CWUR0000SEMC,CWSR0000SEMC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMC,https://data.bls.gov/timeseries/CUUR0000SEMC
+SEMC01,Physicians' services,CUUR0000SEMC01,CUSR0000SEMC01,CWUR0000SEMC01,CWSR0000SEMC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMC01,https://data.bls.gov/timeseries/CUUR0000SEMC01
+SEMC02,Dental services,CUUR0000SEMC02,CUSR0000SEMC02,CWUR0000SEMC02,CWSR0000SEMC02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMC02,https://data.bls.gov/timeseries/CUUR0000SEMC02
+SEMC03,Eyeglasses and eye care,CUUR0000SEMC03,CUSR0000SEMC03,CWUR0000SEMC03,CWSR0000SEMC03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMC03,https://data.bls.gov/timeseries/CUUR0000SEMC03
+SEMC04,Services by other medical professionals,CUUR0000SEMC04,CUSR0000SEMC04,CWUR0000SEMC04,CWSR0000SEMC04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMC04,https://data.bls.gov/timeseries/CUUR0000SEMC04
+SEMD,Hospital and related services,CUUR0000SEMD,CUSR0000SEMD,CWUR0000SEMD,CWSR0000SEMD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMD,https://data.bls.gov/timeseries/CUUR0000SEMD
+SEMD01,Hospital services,CUUR0000SEMD01,CUSR0000SEMD01,CWUR0000SEMD01,CWSR0000SEMD01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMD01,https://data.bls.gov/timeseries/CUUR0000SEMD01
+SEMD02,Nursing homes and adult day services,CUUR0000SEMD02,CUSR0000SEMD02,CWUR0000SEMD02,CWSR0000SEMD02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMD02,https://data.bls.gov/timeseries/CUUR0000SEMD02
+SEMD03,Care of invalids and elderly at home,CUUR0000SEMD03,CUSR0000SEMD03,CWUR0000SEMD03,CWSR0000SEMD03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMD03,https://data.bls.gov/timeseries/CUUR0000SEMD03
+SEME,Health insurance,CUUR0000SEME,CUSR0000SEME,CWUR0000SEME,CWSR0000SEME,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEME,https://data.bls.gov/timeseries/CUUR0000SEME
+SEMF,Medicinal drugs,CUUR0000SEMF,CUSR0000SEMF,CWUR0000SEMF,CWSR0000SEMF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMF,https://data.bls.gov/timeseries/CUUR0000SEMF
+SEMF01,Prescription drugs,CUUR0000SEMF01,CUSR0000SEMF01,CWUR0000SEMF01,CWSR0000SEMF01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMF01,https://data.bls.gov/timeseries/CUUR0000SEMF01
+SEMF02,Nonprescription drugs,CUUR0000SEMF02,CUSR0000SEMF02,CWUR0000SEMF02,CWSR0000SEMF02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMF02,https://data.bls.gov/timeseries/CUUR0000SEMF02
+SEMG,Medical equipment and supplies,CUUR0000SEMG,CUSR0000SEMG,CWUR0000SEMG,CWSR0000SEMG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEMG,https://data.bls.gov/timeseries/CUUR0000SEMG
+SAR,Recreation,CUUR0000SAR,CUSR0000SAR,CWUR0000SAR,CWSR0000SAR,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAR,https://data.bls.gov/timeseries/CUUR0000SAR
+SARC,Recreation commodities,CUUR0000SARC,CUSR0000SARC,CWUR0000SARC,CWSR0000SARC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SARC,https://data.bls.gov/timeseries/CUUR0000SARC
+SARS,Recreation services,CUUR0000SARS,CUSR0000SARS,CWUR0000SARS,CWSR0000SARS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SARS,https://data.bls.gov/timeseries/CUUR0000SARS
+SERA,Video and audio,CUUR0000SERA,CUSR0000SERA,CWUR0000SERA,CWSR0000SERA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA,https://data.bls.gov/timeseries/CUUR0000SERA
+SERA01,Televisions,CUUR0000SERA01,CUSR0000SERA01,CWUR0000SERA01,CWSR0000SERA01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA01,https://data.bls.gov/timeseries/CUUR0000SERA01
+SERA02,"Cable, satellite, and live streaming television service",CUUR0000SERA02,CUSR0000SERA02,CWUR0000SERA02,CWSR0000SERA02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA02,https://data.bls.gov/timeseries/CUUR0000SERA02
+SERA03,Other video equipment,CUUR0000SERA03,CUSR0000SERA03,CWUR0000SERA03,CWSR0000SERA03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA03,https://data.bls.gov/timeseries/CUUR0000SERA03
+SERA04,"Purchase, subscription, and rental of video",CUUR0000SERA04,CUSR0000SERA04,CWUR0000SERA04,CWSR0000SERA04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA04,https://data.bls.gov/timeseries/CUUR0000SERA04
+SERA05,Audio equipment,CUUR0000SERA05,CUSR0000SERA05,CWUR0000SERA05,CWSR0000SERA05,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA05,https://data.bls.gov/timeseries/CUUR0000SERA05
+SERA06,Recorded music and music subscriptions,CUUR0000SERA06,CUSR0000SERA06,CWUR0000SERA06,CWSR0000SERA06,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERA06,https://data.bls.gov/timeseries/CUUR0000SERA06
+SERAC,Video and audio products,CUUR0000SERAC,CUSR0000SERAC,CWUR0000SERAC,CWSR0000SERAC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERAC,https://data.bls.gov/timeseries/CUUR0000SERAC
+SERAS,Video and audio services,CUUR0000SERAS,CUSR0000SERAS,CWUR0000SERAS,CWSR0000SERAS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERAS,https://data.bls.gov/timeseries/CUUR0000SERAS
+SERB,"Pets, pet products and services",CUUR0000SERB,CUSR0000SERB,CWUR0000SERB,CWSR0000SERB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERB,https://data.bls.gov/timeseries/CUUR0000SERB
+SERB01,Pets and pet products,CUUR0000SERB01,CUSR0000SERB01,CWUR0000SERB01,CWSR0000SERB01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERB01,https://data.bls.gov/timeseries/CUUR0000SERB01
+SERB02,Pet services including veterinary,CUUR0000SERB02,CUSR0000SERB02,CWUR0000SERB02,CWSR0000SERB02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERB02,https://data.bls.gov/timeseries/CUUR0000SERB02
+SERC,Sporting goods,CUUR0000SERC,CUSR0000SERC,CWUR0000SERC,CWSR0000SERC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERC,https://data.bls.gov/timeseries/CUUR0000SERC
+SERC01,Sports vehicles including bicycles,CUUR0000SERC01,CUSR0000SERC01,CWUR0000SERC01,CWSR0000SERC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERC01,https://data.bls.gov/timeseries/CUUR0000SERC01
+SERC02,Sports equipment,CUUR0000SERC02,CUSR0000SERC02,CWUR0000SERC02,CWSR0000SERC02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERC02,https://data.bls.gov/timeseries/CUUR0000SERC02
+SERD,Photography,CUUR0000SERD,CUSR0000SERD,CWUR0000SERD,CWSR0000SERD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERD,https://data.bls.gov/timeseries/CUUR0000SERD
+SERD01,Photographic equipment and supplies,CUUR0000SERD01,CUSR0000SERD01,CWUR0000SERD01,CWSR0000SERD01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERD01,https://data.bls.gov/timeseries/CUUR0000SERD01
+SERD02,Photographers and photo processing,CUUR0000SERD02,CUSR0000SERD02,CWUR0000SERD02,CWSR0000SERD02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERD02,https://data.bls.gov/timeseries/CUUR0000SERD02
+SERE,Other recreational goods,CUUR0000SERE,CUSR0000SERE,CWUR0000SERE,CWSR0000SERE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERE,https://data.bls.gov/timeseries/CUUR0000SERE
+SERE01,Toys,CUUR0000SERE01,CUSR0000SERE01,CWUR0000SERE01,CWSR0000SERE01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERE01,https://data.bls.gov/timeseries/CUUR0000SERE01
+SERE02,"Sewing machines, fabric and supplies",CUUR0000SERE02,CUSR0000SERE02,CWUR0000SERE02,CWSR0000SERE02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERE02,https://data.bls.gov/timeseries/CUUR0000SERE02
+SERE03,Music instruments and accessories,CUUR0000SERE03,CUSR0000SERE03,CWUR0000SERE03,CWSR0000SERE03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERE03,https://data.bls.gov/timeseries/CUUR0000SERE03
+SERF,Other recreation services,CUUR0000SERF,CUSR0000SERF,CWUR0000SERF,CWSR0000SERF,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERF,https://data.bls.gov/timeseries/CUUR0000SERF
+SERF01,"Club membership for shopping clubs, fraternal, or other organizations, or participant sports fees",CUUR0000SERF01,CUSR0000SERF01,CWUR0000SERF01,CWSR0000SERF01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERF01,https://data.bls.gov/timeseries/CUUR0000SERF01
+SERF02,Admissions,CUUR0000SERF02,CUSR0000SERF02,CWUR0000SERF02,CWSR0000SERF02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERF02,https://data.bls.gov/timeseries/CUUR0000SERF02
+SERF03,Fees for lessons or instructions,CUUR0000SERF03,CUSR0000SERF03,CWUR0000SERF03,CWSR0000SERF03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERF03,https://data.bls.gov/timeseries/CUUR0000SERF03
+SERG,Recreational reading materials,CUUR0000SERG,CUSR0000SERG,CWUR0000SERG,CWSR0000SERG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERG,https://data.bls.gov/timeseries/CUUR0000SERG
+SERG01,Newspapers and magazines,CUUR0000SERG01,CUSR0000SERG01,CWUR0000SERG01,CWSR0000SERG01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERG01,https://data.bls.gov/timeseries/CUUR0000SERG01
+SERG02,Recreational books,CUUR0000SERG02,CUSR0000SERG02,CWUR0000SERG02,CWSR0000SERG02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SERG02,https://data.bls.gov/timeseries/CUUR0000SERG02
+SAE,Education and communication,CUUR0000SAE,CUSR0000SAE,CWUR0000SAE,CWSR0000SAE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAE,https://data.bls.gov/timeseries/CUUR0000SAE
+SAE1,Education,CUUR0000SAE1,CUSR0000SAE1,CWUR0000SAE1,CWSR0000SAE1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAE1,https://data.bls.gov/timeseries/CUUR0000SAE1
+SAE2,Communication,CUUR0000SAE2,CUSR0000SAE2,CWUR0000SAE2,CWSR0000SAE2,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAE2,https://data.bls.gov/timeseries/CUUR0000SAE2
+SAE21,Information and information processing,CUUR0000SAE21,CUSR0000SAE21,CWUR0000SAE21,CWSR0000SAE21,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAE21,https://data.bls.gov/timeseries/CUUR0000SAE21
+SAEC,Education and communication commodities,CUUR0000SAEC,CUSR0000SAEC,CWUR0000SAEC,CWSR0000SAEC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAEC,https://data.bls.gov/timeseries/CUUR0000SAEC
+SAES,Education and communication services,CUUR0000SAES,CUSR0000SAES,CWUR0000SAES,CWSR0000SAES,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAES,https://data.bls.gov/timeseries/CUUR0000SAES
+SEEA,Educational books and supplies,CUUR0000SEEA,CUSR0000SEEA,CWUR0000SEEA,CWSR0000SEEA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEA,https://data.bls.gov/timeseries/CUUR0000SEEA
+SEEB,"Tuition, other school fees, and childcare",CUUR0000SEEB,CUSR0000SEEB,CWUR0000SEEB,CWSR0000SEEB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEB,https://data.bls.gov/timeseries/CUUR0000SEEB
+SEEB01,College tuition and fees,CUUR0000SEEB01,CUSR0000SEEB01,CWUR0000SEEB01,CWSR0000SEEB01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEB01,https://data.bls.gov/timeseries/CUUR0000SEEB01
+SEEB02,Elementary and high school tuition and fees,CUUR0000SEEB02,CUSR0000SEEB02,CWUR0000SEEB02,CWSR0000SEEB02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEB02,https://data.bls.gov/timeseries/CUUR0000SEEB02
+SEEB03,Child care and nursery school,CUUR0000SEEB03,CUSR0000SEEB03,CWUR0000SEEB03,CWSR0000SEEB03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEB03,https://data.bls.gov/timeseries/CUUR0000SEEB03
+SEEB04,Technical and business school tuition and fees,CUUR0000SEEB04,CUSR0000SEEB04,CWUR0000SEEB04,CWSR0000SEEB04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEB04,https://data.bls.gov/timeseries/CUUR0000SEEB04
+SEEC,Postage and delivery services,CUUR0000SEEC,CUSR0000SEEC,CWUR0000SEEC,CWSR0000SEEC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEC,https://data.bls.gov/timeseries/CUUR0000SEEC
+SEEC01,Postage,CUUR0000SEEC01,CUSR0000SEEC01,CWUR0000SEEC01,CWSR0000SEEC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEC01,https://data.bls.gov/timeseries/CUUR0000SEEC01
+SEEC02,Delivery services,CUUR0000SEEC02,CUSR0000SEEC02,CWUR0000SEEC02,CWSR0000SEEC02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEC02,https://data.bls.gov/timeseries/CUUR0000SEEC02
+SEED,Residential telephone services,CUUR0000SEED,CUSR0000SEED,CWUR0000SEED,CWSR0000SEED,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEED,https://data.bls.gov/timeseries/CUUR0000SEED
+SEED03,Wireless telephone services,CUUR0000SEED03,CUSR0000SEED03,CWUR0000SEED03,CWSR0000SEED03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEED03,https://data.bls.gov/timeseries/CUUR0000SEED03
+SEED04,Land-line telephone services,CUUR0000SEED04,CUSR0000SEED04,CWUR0000SEED04,CWSR0000SEED04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEED04,https://data.bls.gov/timeseries/CUUR0000SEED04
+SEEE,"Information technology, hardware and services",CUUR0000SEEE,CUSR0000SEEE,CWUR0000SEEE,CWSR0000SEEE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEE,https://data.bls.gov/timeseries/CUUR0000SEEE
+SEEE01,Personal computers and peripheral equipment,CUUR0000SEEE01,CUSR0000SEEE01,CWUR0000SEEE01,CWSR0000SEEE01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEE01,https://data.bls.gov/timeseries/CUUR0000SEEE01
+SEEE02,Computer software and accessories,CUUR0000SEEE02,CUSR0000SEEE02,CWUR0000SEEE02,CWSR0000SEEE02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEE02,https://data.bls.gov/timeseries/CUUR0000SEEE02
+SEEE03,Internet services and electronic information providers,CUUR0000SEEE03,CUSR0000SEEE03,CWUR0000SEEE03,CWSR0000SEEE03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEE03,https://data.bls.gov/timeseries/CUUR0000SEEE03
+SEEE04,"Telephone hardware, calculators, and other consumer information items",CUUR0000SEEE04,CUSR0000SEEE04,CWUR0000SEEE04,CWSR0000SEEE04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEE04,https://data.bls.gov/timeseries/CUUR0000SEEE04
+SEEEC,Information technology commodities,CUUR0000SEEEC,CUSR0000SEEEC,CWUR0000SEEEC,CWSR0000SEEEC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEEEC,https://data.bls.gov/timeseries/CUUR0000SEEEC
+SAG,Other goods and services,CUUR0000SAG,CUSR0000SAG,CWUR0000SAG,CWSR0000SAG,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAG,https://data.bls.gov/timeseries/CUUR0000SAG
+SAG1,Personal care,CUUR0000SAG1,CUSR0000SAG1,CWUR0000SAG1,CWSR0000SAG1,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAG1,https://data.bls.gov/timeseries/CUUR0000SAG1
+SAGC,Other goods,CUUR0000SAGC,CUSR0000SAGC,CWUR0000SAGC,CWSR0000SAGC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAGC,https://data.bls.gov/timeseries/CUUR0000SAGC
+SAGS,Other personal services,CUUR0000SAGS,CUSR0000SAGS,CWUR0000SAGS,CWSR0000SAGS,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAGS,https://data.bls.gov/timeseries/CUUR0000SAGS
+SEGA,Tobacco and smoking products,CUUR0000SEGA,CUSR0000SEGA,CWUR0000SEGA,CWSR0000SEGA,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGA,https://data.bls.gov/timeseries/CUUR0000SEGA
+SEGA01,Cigarettes,CUUR0000SEGA01,CUSR0000SEGA01,CWUR0000SEGA01,CWSR0000SEGA01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGA01,https://data.bls.gov/timeseries/CUUR0000SEGA01
+SEGA02,Tobacco products other than cigarettes,CUUR0000SEGA02,CUSR0000SEGA02,CWUR0000SEGA02,CWSR0000SEGA02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGA02,https://data.bls.gov/timeseries/CUUR0000SEGA02
+SEGB,Personal care products,CUUR0000SEGB,CUSR0000SEGB,CWUR0000SEGB,CWSR0000SEGB,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGB,https://data.bls.gov/timeseries/CUUR0000SEGB
+SEGB01,"Hair, dental, shaving, and miscellaneous personal care products",CUUR0000SEGB01,CUSR0000SEGB01,CWUR0000SEGB01,CWSR0000SEGB01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGB01,https://data.bls.gov/timeseries/CUUR0000SEGB01
+SEGB02,"Cosmetics, perfume, bath, nail preparations and implements",CUUR0000SEGB02,CUSR0000SEGB02,CWUR0000SEGB02,CWSR0000SEGB02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGB02,https://data.bls.gov/timeseries/CUUR0000SEGB02
+SEGC,Personal care services,CUUR0000SEGC,CUSR0000SEGC,CWUR0000SEGC,CWSR0000SEGC,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGC,https://data.bls.gov/timeseries/CUUR0000SEGC
+SEGC01,Haircuts and other personal care services,CUUR0000SEGC01,CUSR0000SEGC01,CWUR0000SEGC01,CWSR0000SEGC01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGC01,https://data.bls.gov/timeseries/CUUR0000SEGC01
+SEGD,Miscellaneous personal services,CUUR0000SEGD,CUSR0000SEGD,CWUR0000SEGD,CWSR0000SEGD,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGD,https://data.bls.gov/timeseries/CUUR0000SEGD
+SEGD01,Legal services,CUUR0000SEGD01,CUSR0000SEGD01,CWUR0000SEGD01,CWSR0000SEGD01,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGD01,https://data.bls.gov/timeseries/CUUR0000SEGD01
+SEGD02,Funeral expenses,CUUR0000SEGD02,CUSR0000SEGD02,CWUR0000SEGD02,CWSR0000SEGD02,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGD02,https://data.bls.gov/timeseries/CUUR0000SEGD02
+SEGD03,Laundry and dry cleaning services,CUUR0000SEGD03,CUSR0000SEGD03,CWUR0000SEGD03,CWSR0000SEGD03,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGD03,https://data.bls.gov/timeseries/CUUR0000SEGD03
+SEGD04,Apparel services other than laundry and dry cleaning,CUUR0000SEGD04,CUSR0000SEGD04,CWUR0000SEGD04,CWSR0000SEGD04,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGD04,https://data.bls.gov/timeseries/CUUR0000SEGD04
+SEGD05,Financial services,CUUR0000SEGD05,CUSR0000SEGD05,CWUR0000SEGD05,CWSR0000SEGD05,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGD05,https://data.bls.gov/timeseries/CUUR0000SEGD05
+SEGE,Miscellaneous personal goods,CUUR0000SEGE,CUSR0000SEGE,CWUR0000SEGE,CWSR0000SEGE,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEGE,https://data.bls.gov/timeseries/CUUR0000SEGE

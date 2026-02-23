@@ -1,0 +1,323 @@
+item_name,indent_level,parent_item,bls_item_code,bls_series_id_cpi_u_nsa,bls_series_id_cpi_u_sa,bls_series_id_cpi_w_nsa,item_type
+All items,0,,SA0,CUUR0000SA0,CUSR0000SA0,CWUR0000SA0,expenditure_item
+Food and beverages,1,All items,SAF,CUUR0000SAF,CUSR0000SAF,CWUR0000SAF,expenditure_item
+Food,2,Food and beverages,SAF1,CUUR0000SAF1,CUSR0000SAF1,CWUR0000SAF1,expenditure_item
+Food at home,3,Food,SAF11,CUUR0000SAF11,CUSR0000SAF11,CWUR0000SAF11,expenditure_item
+Cereals and bakery products,4,Food at home,SAF111,CUUR0000SAF111,CUSR0000SAF111,CWUR0000SAF111,expenditure_item
+Cereals and cereal products,5,Cereals and bakery products,SEFA,CUUR0000SEFA,CUSR0000SEFA,CWUR0000SEFA,expenditure_item
+Flour and prepared flour mixes,6,Cereals and cereal products,SEFA01,CUUR0000SEFA01,CUSR0000SEFA01,CWUR0000SEFA01,expenditure_item
+Breakfast cereal,6,Cereals and cereal products,SEFA02,CUUR0000SEFA02,CUSR0000SEFA02,CWUR0000SEFA02,expenditure_item
+"Rice, pasta, cornmeal",6,Cereals and cereal products,SEFA03,CUUR0000SEFA03,CUSR0000SEFA03,CWUR0000SEFA03,expenditure_item
+Bakery products,5,Cereals and bakery products,SEFB,CUUR0000SEFB,CUSR0000SEFB,CWUR0000SEFB,expenditure_item
+Bread,6,Bakery products,SEFB01,CUUR0000SEFB01,CUSR0000SEFB01,CWUR0000SEFB01,expenditure_item
+"Fresh biscuits, rolls, muffins",6,Bakery products,SEFB02,CUUR0000SEFB02,CUSR0000SEFB02,CWUR0000SEFB02,expenditure_item
+"Cakes, cupcakes, and cookies",6,Bakery products,SEFB03,CUUR0000SEFB03,CUSR0000SEFB03,CWUR0000SEFB03,expenditure_item
+Other bakery products,6,Bakery products,SEFB04,CUUR0000SEFB04,CUSR0000SEFB04,CWUR0000SEFB04,expenditure_item
+"Meats, poultry, fish, and eggs",4,Food at home,SAF112,CUUR0000SAF112,CUSR0000SAF112,CWUR0000SAF112,expenditure_item
+"Meats, poultry, and fish",5,"Meats, poultry, fish, and eggs",SAF1121,CUUR0000SAF1121,CUSR0000SAF1121,CWUR0000SAF1121,expenditure_item
+Meats,6,"Meats, poultry, and fish",SAF11211,CUUR0000SAF11211,CUSR0000SAF11211,CWUR0000SAF11211,expenditure_item
+Beef and veal,7,Meats,SEFC,CUUR0000SEFC,CUSR0000SEFC,CWUR0000SEFC,expenditure_item
+Uncooked ground beef,8,Beef and veal,SEFC01,CUUR0000SEFC01,CUSR0000SEFC01,CWUR0000SEFC01,expenditure_item
+Uncooked beef roasts,8,Beef and veal,SEFC02,CUUR0000SEFC02,CUSR0000SEFC02,CWUR0000SEFC02,expenditure_item
+Uncooked beef steaks,8,Beef and veal,SEFC03,CUUR0000SEFC03,CUSR0000SEFC03,CWUR0000SEFC03,expenditure_item
+Uncooked other beef and veal,8,Beef and veal,SEFC04,CUUR0000SEFC04,CUSR0000SEFC04,CWUR0000SEFC04,expenditure_item
+Pork,7,Meats,SEFD,CUUR0000SEFD,CUSR0000SEFD,CWUR0000SEFD,expenditure_item
+"Bacon, breakfast sausage, and related products",8,Pork,SEFD01,CUUR0000SEFD01,CUSR0000SEFD01,CWUR0000SEFD01,expenditure_item
+Ham,8,Pork,SEFD02,CUUR0000SEFD02,CUSR0000SEFD02,CWUR0000SEFD02,expenditure_item
+Pork chops,8,Pork,SEFD03,CUUR0000SEFD03,CUSR0000SEFD03,CWUR0000SEFD03,expenditure_item
+"Other pork including roasts, steaks, and ribs",8,Pork,SEFD04,CUUR0000SEFD04,CUSR0000SEFD04,CWUR0000SEFD04,expenditure_item
+Other meats,7,Meats,SEFE,CUUR0000SEFE,CUSR0000SEFE,CWUR0000SEFE,expenditure_item
+Poultry,6,"Meats, poultry, and fish",SEFF,CUUR0000SEFF,CUSR0000SEFF,CWUR0000SEFF,expenditure_item
+Chicken,7,Poultry,SEFF01,CUUR0000SEFF01,CUSR0000SEFF01,CWUR0000SEFF01,expenditure_item
+Other uncooked poultry including turkey,7,Poultry,SEFF02,CUUR0000SEFF02,CUSR0000SEFF02,CWUR0000SEFF02,expenditure_item
+Fish and seafood,6,"Meats, poultry, and fish",SEFG,CUUR0000SEFG,CUSR0000SEFG,CWUR0000SEFG,expenditure_item
+Fresh fish and seafood,7,Fish and seafood,SEFG01,CUUR0000SEFG01,CUSR0000SEFG01,CWUR0000SEFG01,expenditure_item
+Processed fish and seafood,7,Fish and seafood,SEFG02,CUUR0000SEFG02,CUSR0000SEFG02,CWUR0000SEFG02,expenditure_item
+Eggs,5,"Meats, poultry, fish, and eggs",SEFH,CUUR0000SEFH,CUSR0000SEFH,CWUR0000SEFH,expenditure_item
+Dairy and related products,4,Food at home,SEFJ,CUUR0000SEFJ,CUSR0000SEFJ,CWUR0000SEFJ,expenditure_item
+Milk,5,Dairy and related products,SEFJ01,CUUR0000SEFJ01,CUSR0000SEFJ01,CWUR0000SEFJ01,expenditure_item
+Cheese and related products,5,Dairy and related products,SEFJ02,CUUR0000SEFJ02,CUSR0000SEFJ02,CWUR0000SEFJ02,expenditure_item
+Ice cream and related products,5,Dairy and related products,SEFJ03,CUUR0000SEFJ03,CUSR0000SEFJ03,CWUR0000SEFJ03,expenditure_item
+Other dairy and related products,5,Dairy and related products,SEFJ04,CUUR0000SEFJ04,CUSR0000SEFJ04,CWUR0000SEFJ04,expenditure_item
+Fruits and vegetables,4,Food at home,SAF113,CUUR0000SAF113,CUSR0000SAF113,CWUR0000SAF113,expenditure_item
+Fresh fruits and vegetables,5,Fruits and vegetables,SAF1131,CUUR0000SAF1131,CUSR0000SAF1131,CWUR0000SAF1131,expenditure_item
+Fresh fruits,6,Fresh fruits and vegetables,SEFK,CUUR0000SEFK,CUSR0000SEFK,CWUR0000SEFK,expenditure_item
+Apples,7,Fresh fruits,SEFK01,CUUR0000SEFK01,CUSR0000SEFK01,CWUR0000SEFK01,expenditure_item
+Bananas,7,Fresh fruits,SEFK02,CUUR0000SEFK02,CUSR0000SEFK02,CWUR0000SEFK02,expenditure_item
+Citrus fruits,7,Fresh fruits,SEFK03,CUUR0000SEFK03,CUSR0000SEFK03,CWUR0000SEFK03,expenditure_item
+Other fresh fruits,7,Fresh fruits,SEFK04,CUUR0000SEFK04,CUSR0000SEFK04,CWUR0000SEFK04,expenditure_item
+Fresh vegetables,6,Fresh fruits and vegetables,SEFL,CUUR0000SEFL,CUSR0000SEFL,CWUR0000SEFL,expenditure_item
+Potatoes,7,Fresh vegetables,SEFL01,CUUR0000SEFL01,CUSR0000SEFL01,CWUR0000SEFL01,expenditure_item
+Lettuce,7,Fresh vegetables,SEFL02,CUUR0000SEFL02,CUSR0000SEFL02,CWUR0000SEFL02,expenditure_item
+Tomatoes,7,Fresh vegetables,SEFL03,CUUR0000SEFL03,CUSR0000SEFL03,CWUR0000SEFL03,expenditure_item
+Other fresh vegetables,7,Fresh vegetables,SEFL04,CUUR0000SEFL04,CUSR0000SEFL04,CWUR0000SEFL04,expenditure_item
+Processed fruits and vegetables,5,Fruits and vegetables,SEFM,CUUR0000SEFM,CUSR0000SEFM,CWUR0000SEFM,expenditure_item
+Canned fruits and vegetables,6,Processed fruits and vegetables,SEFM01,CUUR0000SEFM01,CUSR0000SEFM01,CWUR0000SEFM01,expenditure_item
+Frozen fruits and vegetables,6,Processed fruits and vegetables,SEFM02,CUUR0000SEFM02,CUSR0000SEFM02,CWUR0000SEFM02,expenditure_item
+Other processed fruits and vegetables including dried,6,Processed fruits and vegetables,SEFM03,CUUR0000SEFM03,CUSR0000SEFM03,CWUR0000SEFM03,expenditure_item
+Nonalcoholic beverages and beverage materials,4,Food at home,SAF114,CUUR0000SAF114,CUSR0000SAF114,CWUR0000SAF114,expenditure_item
+Juices and nonalcoholic drinks,5,Nonalcoholic beverages and beverage materials,SEFN,CUUR0000SEFN,CUSR0000SEFN,CWUR0000SEFN,expenditure_item
+Carbonated drinks,6,Juices and nonalcoholic drinks,SEFN01,CUUR0000SEFN01,CUSR0000SEFN01,CWUR0000SEFN01,expenditure_item
+Frozen noncarbonated juices and drinks,6,Juices and nonalcoholic drinks,SEFN02,CUUR0000SEFN02,CUSR0000SEFN02,CWUR0000SEFN02,expenditure_item
+Nonfrozen noncarbonated juices and drinks,6,Juices and nonalcoholic drinks,SEFN03,CUUR0000SEFN03,CUSR0000SEFN03,CWUR0000SEFN03,expenditure_item
+Beverage materials including coffee and tea,5,Nonalcoholic beverages and beverage materials,SEFP,CUUR0000SEFP,CUSR0000SEFP,CWUR0000SEFP,expenditure_item
+Coffee,6,Beverage materials including coffee and tea,SEFP01,CUUR0000SEFP01,CUSR0000SEFP01,CWUR0000SEFP01,expenditure_item
+Other beverage materials including tea,6,Beverage materials including coffee and tea,SEFP02,CUUR0000SEFP02,CUSR0000SEFP02,CWUR0000SEFP02,expenditure_item
+Other food at home,4,Food at home,SAF115,CUUR0000SAF115,CUSR0000SAF115,CWUR0000SAF115,expenditure_item
+Sugar and sweets,5,Other food at home,SEFR,CUUR0000SEFR,CUSR0000SEFR,CWUR0000SEFR,expenditure_item
+Sugar and sugar substitutes,6,Sugar and sweets,SEFR01,CUUR0000SEFR01,CUSR0000SEFR01,CWUR0000SEFR01,expenditure_item
+Candy and chewing gum,6,Sugar and sweets,SEFR02,CUUR0000SEFR02,CUSR0000SEFR02,CWUR0000SEFR02,expenditure_item
+Other sweets,6,Sugar and sweets,SEFR03,CUUR0000SEFR03,CUSR0000SEFR03,CWUR0000SEFR03,expenditure_item
+Fats and oils,5,Other food at home,SEFS,CUUR0000SEFS,CUSR0000SEFS,CWUR0000SEFS,expenditure_item
+Butter and margarine,6,Fats and oils,SEFS01,CUUR0000SEFS01,CUSR0000SEFS01,CWUR0000SEFS01,expenditure_item
+Salad dressing,6,Fats and oils,SEFS02,CUUR0000SEFS02,CUSR0000SEFS02,CWUR0000SEFS02,expenditure_item
+Other fats and oils including peanut butter,6,Fats and oils,SEFS03,CUUR0000SEFS03,CUSR0000SEFS03,CWUR0000SEFS03,expenditure_item
+Other foods,5,Other food at home,SEFT,CUUR0000SEFT,CUSR0000SEFT,CWUR0000SEFT,expenditure_item
+Soups,6,Other foods,SEFT01,CUUR0000SEFT01,CUSR0000SEFT01,CWUR0000SEFT01,expenditure_item
+Frozen and freeze dried prepared foods,6,Other foods,SEFT02,CUUR0000SEFT02,CUSR0000SEFT02,CWUR0000SEFT02,expenditure_item
+Snacks,6,Other foods,SEFT03,CUUR0000SEFT03,CUSR0000SEFT03,CWUR0000SEFT03,expenditure_item
+"Spices, seasonings, condiments, sauces",6,Other foods,SEFT04,CUUR0000SEFT04,CUSR0000SEFT04,CWUR0000SEFT04,expenditure_item
+Baby food and formula,6,Other foods,SEFT05,CUUR0000SEFT05,CUSR0000SEFT05,CWUR0000SEFT05,expenditure_item
+Other miscellaneous foods,6,Other foods,SEFT06,CUUR0000SEFT06,CUSR0000SEFT06,CWUR0000SEFT06,expenditure_item
+Food away from home,3,Food,SEFV,CUUR0000SEFV,CUSR0000SEFV,CWUR0000SEFV,expenditure_item
+Full service meals and snacks,4,Food away from home,SEFV01,CUUR0000SEFV01,CUSR0000SEFV01,CWUR0000SEFV01,expenditure_item
+Limited service meals and snacks,4,Food away from home,SEFV02,CUUR0000SEFV02,CUSR0000SEFV02,CWUR0000SEFV02,expenditure_item
+Food at employee sites and schools,4,Food away from home,SEFV03,CUUR0000SEFV03,CUSR0000SEFV03,CWUR0000SEFV03,expenditure_item
+Food from vending machines and mobile vendors,4,Food away from home,SEFV04,CUUR0000SEFV04,CUSR0000SEFV04,CWUR0000SEFV04,expenditure_item
+Other food away from home,4,Food away from home,SEFV05,CUUR0000SEFV05,CUSR0000SEFV05,CWUR0000SEFV05,expenditure_item
+Alcoholic beverages,3,Food,SAF116,CUUR0000SAF116,CUSR0000SAF116,CWUR0000SAF116,expenditure_item
+Alcoholic beverages at home,4,Alcoholic beverages,SEFW,CUUR0000SEFW,CUSR0000SEFW,CWUR0000SEFW,expenditure_item
+"Beer, ale, and other malt beverages at home",5,Alcoholic beverages at home,SEFW01,CUUR0000SEFW01,CUSR0000SEFW01,CWUR0000SEFW01,expenditure_item
+Distilled spirits at home,5,Alcoholic beverages at home,SEFW02,CUUR0000SEFW02,CUSR0000SEFW02,CWUR0000SEFW02,expenditure_item
+Wine at home,5,Alcoholic beverages at home,SEFW03,CUUR0000SEFW03,CUSR0000SEFW03,CWUR0000SEFW03,expenditure_item
+Alcoholic beverages away from home,4,Alcoholic beverages,SEFX,CUUR0000SEFX,CUSR0000SEFX,CWUR0000SEFX,expenditure_item
+Housing,1,All items,SAH,CUUR0000SAH,CUSR0000SAH,CWUR0000SAH,expenditure_item
+Shelter,2,Housing,SAH1,CUUR0000SAH1,CUSR0000SAH1,CWUR0000SAH1,expenditure_item
+Rent of primary residence,3,Shelter,SEHA,CUUR0000SEHA,CUSR0000SEHA,CWUR0000SEHA,expenditure_item
+Lodging away from home,3,Shelter,SEHB,CUUR0000SEHB,CUSR0000SEHB,CWUR0000SEHB,expenditure_item
+"Housing at school, excluding board",4,Lodging away from home,SEHB01,CUUR0000SEHB01,CUSR0000SEHB01,CWUR0000SEHB01,expenditure_item
+Other lodging away from home including hotels and motels,4,Lodging away from home,SEHB02,CUUR0000SEHB02,CUSR0000SEHB02,CWUR0000SEHB02,expenditure_item
+Owners' equivalent rent of residences,3,Shelter,SEHC,CUUR0000SEHC,CUSR0000SEHC,CWUR0000SEHC,expenditure_item
+Owners' equivalent rent of primary residence,4,Owners' equivalent rent of residences,SEHC01,CUUR0000SEHC01,CUSR0000SEHC01,CWUR0000SEHC01,expenditure_item
+Unsampled owners' equivalent rent of secondary residences,4,Owners' equivalent rent of residences,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Tenants' and household insurance,3,Shelter,SEHD,CUUR0000SEHD,CUSR0000SEHD,CWUR0000SEHD,expenditure_item
+Fuels and utilities,2,Housing,SAH2,CUUR0000SAH2,CUSR0000SAH2,CWUR0000SAH2,expenditure_item
+Household energy,3,Fuels and utilities,SAH21,CUUR0000SAH21,CUSR0000SAH21,CWUR0000SAH21,expenditure_item
+Fuel oil and other fuels,4,Household energy,SEHE,CUUR0000SEHE,CUSR0000SEHE,CWUR0000SEHE,expenditure_item
+Fuel oil,5,Fuel oil and other fuels,SEHE01,CUUR0000SEHE01,CUSR0000SEHE01,CWUR0000SEHE01,expenditure_item
+"Propane, kerosene, and firewood",5,Fuel oil and other fuels,SEHE02,CUUR0000SEHE02,CUSR0000SEHE02,CWUR0000SEHE02,expenditure_item
+Energy services,4,Household energy,SEHF,CUUR0000SEHF,CUSR0000SEHF,CWUR0000SEHF,expenditure_item
+Electricity,5,Energy services,SEHF01,CUUR0000SEHF01,CUSR0000SEHF01,CWUR0000SEHF01,expenditure_item
+Utility (piped) gas service,5,Energy services,SEHF02,CUUR0000SEHF02,CUSR0000SEHF02,CWUR0000SEHF02,expenditure_item
+Water and sewer and trash collection services,3,Fuels and utilities,SEHG,CUUR0000SEHG,CUSR0000SEHG,CWUR0000SEHG,expenditure_item
+Water and sewerage maintenance,4,Water and sewer and trash collection services,SEHG01,CUUR0000SEHG01,CUSR0000SEHG01,CWUR0000SEHG01,expenditure_item
+Garbage and trash collection,4,Water and sewer and trash collection services,SEHG02,CUUR0000SEHG02,CUSR0000SEHG02,CWUR0000SEHG02,expenditure_item
+Household furnishings and operations,2,Housing,SAH3,CUUR0000SAH3,CUSR0000SAH3,CWUR0000SAH3,expenditure_item
+Window and floor coverings and other linens,3,Household furnishings and operations,SEHH,CUUR0000SEHH,CUSR0000SEHH,CWUR0000SEHH,expenditure_item
+Floor coverings,4,Window and floor coverings and other linens,SEHH01,CUUR0000SEHH01,CUSR0000SEHH01,CWUR0000SEHH01,expenditure_item
+Window coverings,4,Window and floor coverings and other linens,SEHH02,CUUR0000SEHH02,CUSR0000SEHH02,CWUR0000SEHH02,expenditure_item
+Other linens,4,Window and floor coverings and other linens,SEHH03,CUUR0000SEHH03,CUSR0000SEHH03,CWUR0000SEHH03,expenditure_item
+Furniture and bedding,3,Household furnishings and operations,SEHJ,CUUR0000SEHJ,CUSR0000SEHJ,CWUR0000SEHJ,expenditure_item
+Bedroom furniture,4,Furniture and bedding,SEHJ01,CUUR0000SEHJ01,CUSR0000SEHJ01,CWUR0000SEHJ01,expenditure_item
+"Living room, kitchen, and dining room furniture",4,Furniture and bedding,SEHJ02,CUUR0000SEHJ02,CUSR0000SEHJ02,CWUR0000SEHJ02,expenditure_item
+Other furniture,4,Furniture and bedding,SEHJ03,CUUR0000SEHJ03,CUSR0000SEHJ03,CWUR0000SEHJ03,expenditure_item
+Unsampled furniture,4,Furniture and bedding,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Appliances,3,Household furnishings and operations,SEHK,CUUR0000SEHK,CUSR0000SEHK,CWUR0000SEHK,expenditure_item
+Major appliances,4,Appliances,SEHK01,CUUR0000SEHK01,CUSR0000SEHK01,CWUR0000SEHK01,expenditure_item
+Other appliances,4,Appliances,SEHK02,CUUR0000SEHK02,CUSR0000SEHK02,CWUR0000SEHK02,expenditure_item
+Unsampled appliances,4,Appliances,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Other household equipment and furnishings,3,Household furnishings and operations,SEHL,CUUR0000SEHL,CUSR0000SEHL,CWUR0000SEHL,expenditure_item
+"Clocks, lamps, and decorator items",4,Other household equipment and furnishings,SEHL01,CUUR0000SEHL01,CUSR0000SEHL01,CWUR0000SEHL01,expenditure_item
+Indoor plants and flowers,4,Other household equipment and furnishings,SEHL02,CUUR0000SEHL02,CUSR0000SEHL02,CWUR0000SEHL02,expenditure_item
+Dishes and flatware,4,Other household equipment and furnishings,SEHL03,CUUR0000SEHL03,CUSR0000SEHL03,CWUR0000SEHL03,expenditure_item
+Nonelectric cookware and tableware,4,Other household equipment and furnishings,SEHL04,CUUR0000SEHL04,CUSR0000SEHL04,CWUR0000SEHL04,expenditure_item
+"Tools, hardware, outdoor equipment and supplies",3,Household furnishings and operations,SEHM,CUUR0000SEHM,CUSR0000SEHM,CWUR0000SEHM,expenditure_item
+"Tools, hardware and supplies",4,"Tools, hardware, outdoor equipment and supplies",SEHM01,CUUR0000SEHM01,CUSR0000SEHM01,CWUR0000SEHM01,expenditure_item
+Outdoor equipment and supplies,4,"Tools, hardware, outdoor equipment and supplies",SEHM02,CUUR0000SEHM02,CUSR0000SEHM02,CWUR0000SEHM02,expenditure_item
+"Unsampled tools, hardware, outdoor equipment and supplies",4,"Tools, hardware, outdoor equipment and supplies",SEHM,CUUR0000SEHM,CUSR0000SEHM,CWUR0000SEHM,expenditure_item
+Housekeeping supplies,3,Household furnishings and operations,SEHN,CUUR0000SEHN,CUSR0000SEHN,CWUR0000SEHN,expenditure_item
+Household cleaning products,4,Housekeeping supplies,SEHN01,CUUR0000SEHN01,CUSR0000SEHN01,CWUR0000SEHN01,expenditure_item
+Household paper products,4,Housekeeping supplies,SEHN02,CUUR0000SEHN02,CUSR0000SEHN02,CWUR0000SEHN02,expenditure_item
+Miscellaneous household products,4,Housekeeping supplies,SEHN03,CUUR0000SEHN03,CUSR0000SEHN03,CWUR0000SEHN03,expenditure_item
+Household operations,3,Household furnishings and operations,SEHP,CUUR0000SEHP,CUSR0000SEHP,CWUR0000SEHP,expenditure_item
+Domestic services,4,Household operations,SEHP01,CUUR0000SEHP01,CUSR0000SEHP01,CWUR0000SEHP01,expenditure_item
+Gardening and lawncare services,4,Household operations,SEHP02,CUUR0000SEHP02,CUSR0000SEHP02,CWUR0000SEHP02,expenditure_item
+"Moving, storage, freight expense",4,Household operations,SEHP03,CUUR0000SEHP03,CUSR0000SEHP03,CWUR0000SEHP03,expenditure_item
+Repair of household items,4,Household operations,SEHP04,CUUR0000SEHP04,CUSR0000SEHP04,CWUR0000SEHP04,expenditure_item
+Unsampled household operations,4,Household operations,SEHP,CUUR0000SEHP,CUSR0000SEHP,CWUR0000SEHP,expenditure_item
+Apparel,1,All items,SAA,CUUR0000SAA,CUSR0000SAA,CWUR0000SAA,expenditure_item
+Men's and boys' apparel,2,Apparel,SAA1,CUUR0000SAA1,CUSR0000SAA1,CWUR0000SAA1,expenditure_item
+Men's apparel,3,Men's and boys' apparel,SEAA,CUUR0000SEAA,CUSR0000SEAA,CWUR0000SEAA,expenditure_item
+"Men's suits, sport coats, and outerwear",4,Men's apparel,SEAA01,CUUR0000SEAA01,CUSR0000SEAA01,CWUR0000SEAA01,expenditure_item
+"Men's underwear, nightwear, swimwear, and accessories",4,Men's apparel,SEAA02,CUUR0000SEAA02,CUSR0000SEAA02,CWUR0000SEAA02,expenditure_item
+Men's shirts and sweaters,4,Men's apparel,SEAA03,CUUR0000SEAA03,CUSR0000SEAA03,CWUR0000SEAA03,expenditure_item
+Men's pants and shorts,4,Men's apparel,SEAA04,CUUR0000SEAA04,CUSR0000SEAA04,CWUR0000SEAA04,expenditure_item
+Unsampled men's apparel,4,Men's apparel,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Boys' apparel,3,Men's and boys' apparel,SEAB,CUUR0000SEAB,CUSR0000SEAB,CWUR0000SEAB,expenditure_item
+Women's and girls' apparel,2,Apparel,SAA2,CUUR0000SAA2,CUSR0000SAA2,CWUR0000SAA2,expenditure_item
+Women's apparel,3,Women's and girls' apparel,SEAC,CUUR0000SEAC,CUSR0000SEAC,CWUR0000SEAC,expenditure_item
+Women's outerwear,4,Women's apparel,SEAC01,CUUR0000SEAC01,CUSR0000SEAC01,CWUR0000SEAC01,expenditure_item
+Women's dresses,4,Women's apparel,SEAC02,CUUR0000SEAC02,CUSR0000SEAC02,CWUR0000SEAC02,expenditure_item
+Women's suits and separates,4,Women's apparel,SEAC03,CUUR0000SEAC03,CUSR0000SEAC03,CWUR0000SEAC03,expenditure_item
+"Women's underwear, nightwear, swimwear, and accessories",4,Women's apparel,SEAC04,CUUR0000SEAC04,CUSR0000SEAC04,CWUR0000SEAC04,expenditure_item
+Unsampled women's apparel,4,Women's apparel,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Girls' apparel,3,Women's and girls' apparel,SEAD,CUUR0000SEAD,CUSR0000SEAD,CWUR0000SEAD,expenditure_item
+Footwear,2,Apparel,SEAE,CUUR0000SEAE,CUSR0000SEAE,CWUR0000SEAE,expenditure_item
+Men's footwear,3,Footwear,SEAE01,CUUR0000SEAE01,CUSR0000SEAE01,CWUR0000SEAE01,expenditure_item
+Boys' and girls' footwear,3,Footwear,SEAE02,CUUR0000SEAE02,CUSR0000SEAE02,CWUR0000SEAE02,expenditure_item
+Women's footwear,3,Footwear,SEAE03,CUUR0000SEAE03,CUSR0000SEAE03,CWUR0000SEAE03,expenditure_item
+Infants' and toddlers' apparel,2,Apparel,SEAF,CUUR0000SEAF,CUSR0000SEAF,CWUR0000SEAF,expenditure_item
+Jewelry and watches,2,Apparel,SEAG,CUUR0000SEAG,CUSR0000SEAG,CWUR0000SEAG,expenditure_item
+Watches,3,Jewelry and watches,SEAG01,CUUR0000SEAG01,CUSR0000SEAG01,CWUR0000SEAG01,expenditure_item
+Jewelry,3,Jewelry and watches,SEAG02,CUUR0000SEAG02,CUSR0000SEAG02,CWUR0000SEAG02,expenditure_item
+Transportation,1,All items,SAT,CUUR0000SAT,CUSR0000SAT,CWUR0000SAT,expenditure_item
+Private transportation,2,Transportation,SAT1,CUUR0000SAT1,CUSR0000SAT1,CWUR0000SAT1,expenditure_item
+New and used motor vehicles,3,Private transportation,SETA,CUUR0000SETA,CUSR0000SETA,CWUR0000SETA,expenditure_item
+New vehicles,4,New and used motor vehicles,SETA01,CUUR0000SETA01,CUSR0000SETA01,CWUR0000SETA01,expenditure_item
+Used cars and trucks,4,New and used motor vehicles,SETA02,CUUR0000SETA02,CUSR0000SETA02,CWUR0000SETA02,expenditure_item
+Leased cars and trucks,4,New and used motor vehicles,SETA03,CUUR0000SETA03,CUSR0000SETA03,CWUR0000SETA03,expenditure_item
+Car and truck rental,4,New and used motor vehicles,SETA04,CUUR0000SETA04,CUSR0000SETA04,CWUR0000SETA04,expenditure_item
+Unsampled new and used motor vehicles,4,New and used motor vehicles,SETA,CUUR0000SETA,CUSR0000SETA,CWUR0000SETA,expenditure_item
+Motor fuel,3,Private transportation,SETB,CUUR0000SETB,CUSR0000SETB,CWUR0000SETB,expenditure_item
+Gasoline (all types),4,Motor fuel,SETB01,CUUR0000SETB01,CUSR0000SETB01,CWUR0000SETB01,expenditure_item
+Other motor fuels,4,Motor fuel,SETB02,CUUR0000SETB02,CUSR0000SETB02,CWUR0000SETB02,expenditure_item
+Motor vehicle parts and equipment,3,Private transportation,SETC,CUUR0000SETC,CUSR0000SETC,CWUR0000SETC,expenditure_item
+Tires,4,Motor vehicle parts and equipment,SETC01,CUUR0000SETC01,CUSR0000SETC01,CWUR0000SETC01,expenditure_item
+Vehicle accessories other than tires,4,Motor vehicle parts and equipment,SETC02,CUUR0000SETC02,CUSR0000SETC02,CWUR0000SETC02,expenditure_item
+Motor vehicle maintenance and repair,3,Private transportation,SETD,CUUR0000SETD,CUSR0000SETD,CWUR0000SETD,expenditure_item
+Motor vehicle body work,4,Motor vehicle maintenance and repair,SETD01,CUUR0000SETD01,CUSR0000SETD01,CWUR0000SETD01,expenditure_item
+Motor vehicle maintenance and servicing,4,Motor vehicle maintenance and repair,SETD02,CUUR0000SETD02,CUSR0000SETD02,CWUR0000SETD02,expenditure_item
+Motor vehicle repair,4,Motor vehicle maintenance and repair,SETD03,CUUR0000SETD03,CUSR0000SETD03,CWUR0000SETD03,expenditure_item
+Unsampled service policies,4,Motor vehicle maintenance and repair,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Motor vehicle insurance,3,Private transportation,SETE,CUUR0000SETE,CUSR0000SETE,CWUR0000SETE,expenditure_item
+Motor vehicle fees,3,Private transportation,SETF,CUUR0000SETF,CUSR0000SETF,CWUR0000SETF,expenditure_item
+State motor vehicle registration and license fees,4,Motor vehicle fees,SETF01,CUUR0000SETF01,CUSR0000SETF01,CWUR0000SETF01,expenditure_item
+Parking and other fees,4,Motor vehicle fees,SETF03,CUUR0000SETF03,CUSR0000SETF03,CWUR0000SETF03,expenditure_item
+Unsampled motor vehicle fees,4,Motor vehicle fees,SETF,CUUR0000SETF,CUSR0000SETF,CWUR0000SETF,expenditure_item
+Public transportation,2,Transportation,SETG,CUUR0000SETG,CUSR0000SETG,CWUR0000SETG,expenditure_item
+Airline fares,3,Public transportation,SETG01,CUUR0000SETG01,CUSR0000SETG01,CWUR0000SETG01,expenditure_item
+Other intercity transportation,3,Public transportation,SETG02,CUUR0000SETG02,CUSR0000SETG02,CWUR0000SETG02,expenditure_item
+Intracity transportation,3,Public transportation,SETG03,CUUR0000SETG03,CUSR0000SETG03,CWUR0000SETG03,expenditure_item
+Unsampled public transportation,3,Public transportation,SAT,CUUR0000SAT,CUSR0000SAT,CWUR0000SAT,expenditure_item
+Medical care,1,All items,SAM,CUUR0000SAM,CUSR0000SAM,CWUR0000SAM,expenditure_item
+Medical care commodities,2,Medical care,SAM1,CUUR0000SAM1,CUSR0000SAM1,CWUR0000SAM1,expenditure_item
+Medicinal drugs,3,Medical care commodities,SEMF,CUUR0000SEMF,CUSR0000SEMF,CWUR0000SEMF,expenditure_item
+Prescription drugs,4,Medicinal drugs,SEMF01,CUUR0000SEMF01,CUSR0000SEMF01,CWUR0000SEMF01,expenditure_item
+Nonprescription drugs,4,Medicinal drugs,SEMF02,CUUR0000SEMF02,CUSR0000SEMF02,CWUR0000SEMF02,expenditure_item
+Medical equipment and supplies,3,Medical care commodities,SEMG,CUUR0000SEMG,CUSR0000SEMG,CWUR0000SEMG,expenditure_item
+Medical care services,2,Medical care,SAM2,CUUR0000SAM2,CUSR0000SAM2,CWUR0000SAM2,expenditure_item
+Professional services,3,Medical care services,SEMC,CUUR0000SEMC,CUSR0000SEMC,CWUR0000SEMC,expenditure_item
+Physicians' services,4,Professional services,SEMC01,CUUR0000SEMC01,CUSR0000SEMC01,CWUR0000SEMC01,expenditure_item
+Dental services,4,Professional services,SEMC02,CUUR0000SEMC02,CUSR0000SEMC02,CWUR0000SEMC02,expenditure_item
+Eyeglasses and eye care,4,Professional services,SEMC03,CUUR0000SEMC03,CUSR0000SEMC03,CWUR0000SEMC03,expenditure_item
+Services by other medical professionals,4,Professional services,SEMC04,CUUR0000SEMC04,CUSR0000SEMC04,CWUR0000SEMC04,expenditure_item
+Hospital and related services,3,Medical care services,SEMD,CUUR0000SEMD,CUSR0000SEMD,CWUR0000SEMD,expenditure_item
+Hospital services,4,Hospital and related services,SEMD01,CUUR0000SEMD01,CUSR0000SEMD01,CWUR0000SEMD01,expenditure_item
+Nursing homes and adult day services,4,Hospital and related services,SEMD02,CUUR0000SEMD02,CUSR0000SEMD02,CWUR0000SEMD02,expenditure_item
+Care of invalids and elderly at home,4,Hospital and related services,SEMD03,CUUR0000SEMD03,CUSR0000SEMD03,CWUR0000SEMD03,expenditure_item
+Health insurance,3,Medical care services,SEME,CUUR0000SEME,CUSR0000SEME,CWUR0000SEME,expenditure_item
+Recreation,1,All items,SAR,CUUR0000SAR,CUSR0000SAR,CWUR0000SAR,expenditure_item
+Video and audio,2,Recreation,SERA,CUUR0000SERA,CUSR0000SERA,CWUR0000SERA,expenditure_item
+Televisions,3,Video and audio,SERA01,CUUR0000SERA01,CUSR0000SERA01,CWUR0000SERA01,expenditure_item
+"Cable, satellite, and live streaming television service",3,Video and audio,SERA02,CUUR0000SERA02,CUSR0000SERA02,CWUR0000SERA02,expenditure_item
+Other video equipment,3,Video and audio,SERA03,CUUR0000SERA03,CUSR0000SERA03,CWUR0000SERA03,expenditure_item
+"Purchase, subscription, and rental of video",3,Video and audio,SERA04,CUUR0000SERA04,CUSR0000SERA04,CWUR0000SERA04,expenditure_item
+Audio equipment,3,Video and audio,SERA05,CUUR0000SERA05,CUSR0000SERA05,CWUR0000SERA05,expenditure_item
+Recorded music and music subscriptions,3,Video and audio,SERA06,CUUR0000SERA06,CUSR0000SERA06,CWUR0000SERA06,expenditure_item
+Unsampled video and audio,3,Video and audio,SERA,CUUR0000SERA,CUSR0000SERA,CWUR0000SERA,expenditure_item
+"Pets, pet products and services",2,Recreation,SERB,CUUR0000SERB,CUSR0000SERB,CWUR0000SERB,expenditure_item
+Pets and pet products,3,"Pets, pet products and services",SERB01,CUUR0000SERB01,CUSR0000SERB01,CWUR0000SERB01,expenditure_item
+Pet services including veterinary,3,"Pets, pet products and services",SERB02,CUUR0000SERB02,CUSR0000SERB02,CWUR0000SERB02,expenditure_item
+Sporting goods,2,Recreation,SERC,CUUR0000SERC,CUSR0000SERC,CWUR0000SERC,expenditure_item
+Sports vehicles including bicycles,3,Sporting goods,SERC01,CUUR0000SERC01,CUSR0000SERC01,CWUR0000SERC01,expenditure_item
+Sports equipment,3,Sporting goods,SERC02,CUUR0000SERC02,CUSR0000SERC02,CWUR0000SERC02,expenditure_item
+Unsampled sporting goods,3,Sporting goods,SERC,CUUR0000SERC,CUSR0000SERC,CWUR0000SERC,expenditure_item
+Photography,2,Recreation,SERD,CUUR0000SERD,CUSR0000SERD,CWUR0000SERD,expenditure_item
+Photographic equipment and supplies,3,Photography,SERD01,CUUR0000SERD01,CUSR0000SERD01,CWUR0000SERD01,expenditure_item
+Photographers and photo processing,3,Photography,SERD02,CUUR0000SERD02,CUSR0000SERD02,CWUR0000SERD02,expenditure_item
+Unsampled photography,3,Photography,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Other recreational goods,2,Recreation,SERE,CUUR0000SERE,CUSR0000SERE,CWUR0000SERE,expenditure_item
+Toys,3,Other recreational goods,SERE01,CUUR0000SERE01,CUSR0000SERE01,CWUR0000SERE01,expenditure_item
+"Sewing machines, fabric and supplies",3,Other recreational goods,SERE02,CUUR0000SERE02,CUSR0000SERE02,CWUR0000SERE02,expenditure_item
+Music instruments and accessories,3,Other recreational goods,SERE03,CUUR0000SERE03,CUSR0000SERE03,CWUR0000SERE03,expenditure_item
+Unsampled recreation commodities,3,Other recreational goods,SAC,CUUR0000SAC,CUSR0000SAC,CWUR0000SAC,special_aggregate
+Other recreation services,2,Recreation,SERF,CUUR0000SERF,CUSR0000SERF,CWUR0000SERF,expenditure_item
+"Club membership for shopping clubs, fraternal, or other organizations, or participant sports fees",3,Other recreation services,SERF01,CUUR0000SERF01,CUSR0000SERF01,CWUR0000SERF01,expenditure_item
+Admissions,3,Other recreation services,SERF02,CUUR0000SERF02,CUSR0000SERF02,CWUR0000SERF02,expenditure_item
+Fees for lessons or instructions,3,Other recreation services,SERF03,CUUR0000SERF03,CUSR0000SERF03,CWUR0000SERF03,special_aggregate
+Unsampled recreation services,3,Other recreation services,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Recreational reading materials,2,Recreation,SERG,CUUR0000SERG,CUSR0000SERG,CWUR0000SERG,expenditure_item
+Newspapers and magazines,3,Recreational reading materials,SERG01,CUUR0000SERG01,CUSR0000SERG01,CWUR0000SERG01,expenditure_item
+Recreational books,3,Recreational reading materials,SERG02,CUUR0000SERG02,CUSR0000SERG02,CWUR0000SERG02,expenditure_item
+Unsampled recreational reading materials,3,Recreational reading materials,SERG,CUUR0000SERG,CUSR0000SERG,CWUR0000SERG,expenditure_item
+Education and communication,1,All items,SAE,CUUR0000SAE,CUSR0000SAE,CWUR0000SAE,expenditure_item
+Education,2,Education and communication,SAE1,CUUR0000SAE1,CUSR0000SAE1,CWUR0000SAE1,expenditure_item
+Educational books and supplies,3,Education,SEEA,CUUR0000SEEA,CUSR0000SEEA,CWUR0000SEEA,expenditure_item
+"Tuition, other school fees, and childcare",3,Education,SEEB,CUUR0000SEEB,CUSR0000SEEB,CWUR0000SEEB,expenditure_item
+College tuition and fees,4,"Tuition, other school fees, and childcare",SEEB01,CUUR0000SEEB01,CUSR0000SEEB01,CWUR0000SEEB01,expenditure_item
+Elementary and high school tuition and fees,4,"Tuition, other school fees, and childcare",SEEB02,CUUR0000SEEB02,CUSR0000SEEB02,CWUR0000SEEB02,expenditure_item
+Day care and preschool,4,"Tuition, other school fees, and childcare",SEEB03,CUUR0000SEEB03,CUSR0000SEEB03,CWUR0000SEEB03,expenditure_item
+Technical and business school tuition and fees,4,"Tuition, other school fees, and childcare",SEEB04,CUUR0000SEEB04,CUSR0000SEEB04,CWUR0000SEEB04,expenditure_item
+"Unsampled tuition, other school fees, and childcare",4,"Tuition, other school fees, and childcare",SEEB,CUUR0000SEEB,CUSR0000SEEB,CWUR0000SEEB,expenditure_item
+Communication,2,Education and communication,SAE2,CUUR0000SAE2,CUSR0000SAE2,CWUR0000SAE2,expenditure_item
+Postage and delivery services,3,Communication,SEEC,CUUR0000SEEC,CUSR0000SEEC,CWUR0000SEEC,expenditure_item
+Postage,4,Postage and delivery services,SEEC01,CUUR0000SEEC01,CUSR0000SEEC01,CWUR0000SEEC01,expenditure_item
+Delivery services,4,Postage and delivery services,SEEC02,CUUR0000SEEC02,CUSR0000SEEC02,CWUR0000SEEC02,expenditure_item
+Information and information processing,3,Communication,SAE21,CUUR0000SAE21,CUSR0000SAE21,CWUR0000SAE21,expenditure_item
+Telephone services,4,Information and information processing,SEED,CUUR0000SEED,CUSR0000SEED,CWUR0000SEED,expenditure_item
+Wireless telephone services,5,Telephone services,SEED03,CUUR0000SEED03,CUSR0000SEED03,CWUR0000SEED03,special_aggregate
+Residential telephone services,5,Telephone services,SEED,CUUR0000SEED,CUSR0000SEED,CWUR0000SEED,expenditure_item
+"Information technology, hardware and services",3,Communication,SEEE,CUUR0000SEEE,CUSR0000SEEE,CWUR0000SEEE,expenditure_item
+"Computers, peripherals, and smart home assistants",4,"Information technology, hardware and services",SEEE01,CUUR0000SEEE01,CUSR0000SEEE01,CWUR0000SEEE01,expenditure_item
+Computer software and accessories,4,"Information technology, hardware and services",SEEE02,CUUR0000SEEE02,CUSR0000SEEE02,CWUR0000SEEE02,expenditure_item
+Internet services and electronic information providers,4,"Information technology, hardware and services",SEEE03,CUUR0000SEEE03,CUSR0000SEEE03,CWUR0000SEEE03,expenditure_item
+"Telephone hardware, calculators, and other consumer information items",4,"Information technology, hardware and services",SEEE04,CUUR0000SEEE04,CUSR0000SEEE04,CWUR0000SEEE04,expenditure_item
+Unsampled information and information processing,4,"Information technology, hardware and services",,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Other goods and services,1,All items,SAG,CUUR0000SAG,CUSR0000SAG,CWUR0000SAG,expenditure_item
+Tobacco and smoking products,2,Other goods and services,SEGA,CUUR0000SEGA,CUSR0000SEGA,CWUR0000SEGA,expenditure_item
+Cigarettes,3,Tobacco and smoking products,SEGA01,CUUR0000SEGA01,CUSR0000SEGA01,CWUR0000SEGA01,expenditure_item
+Tobacco products other than cigarettes,3,Tobacco and smoking products,SEGA02,CUUR0000SEGA02,CUSR0000SEGA02,CWUR0000SEGA02,expenditure_item
+Unsampled tobacco and smoking products,3,Tobacco and smoking products,SEGA,CUUR0000SEGA,CUSR0000SEGA,CWUR0000SEGA,expenditure_item
+Personal care,2,Other goods and services,SAG1,CUUR0000SAG1,CUSR0000SAG1,CWUR0000SAG1,expenditure_item
+Personal care products,3,Personal care,SEGB,CUUR0000SEGB,CUSR0000SEGB,CWUR0000SEGB,expenditure_item
+"Hair, dental, shaving, and miscellaneous personal care products",4,Personal care products,SEGB01,CUUR0000SEGB01,CUSR0000SEGB01,CWUR0000SEGB01,expenditure_item
+"Cosmetics, perfume, bath, nail preparations and implements",4,Personal care products,SEGB02,CUUR0000SEGB02,CUSR0000SEGB02,CWUR0000SEGB02,expenditure_item
+Unsampled personal care products,4,Personal care products,SEGB,CUUR0000SEGB,CUSR0000SEGB,CWUR0000SEGB,expenditure_item
+Personal care services,3,Personal care,SEGC,CUUR0000SEGC,CUSR0000SEGC,CWUR0000SEGC,expenditure_item
+Haircuts and other personal care services,4,Personal care services,SEGC01,CUUR0000SEGC01,CUSR0000SEGC01,CWUR0000SEGC01,expenditure_item
+Miscellaneous personal services,3,Personal care,SEGD,CUUR0000SEGD,CUSR0000SEGD,CWUR0000SEGD,expenditure_item
+Legal services,4,Miscellaneous personal services,SEGD01,CUUR0000SEGD01,CUSR0000SEGD01,CWUR0000SEGD01,expenditure_item
+Funeral expenses,4,Miscellaneous personal services,SEGD02,CUUR0000SEGD02,CUSR0000SEGD02,CWUR0000SEGD02,expenditure_item
+Laundry and dry cleaning services,4,Miscellaneous personal services,SEGD03,CUUR0000SEGD03,CUSR0000SEGD03,CWUR0000SEGD03,expenditure_item
+Apparel services other than laundry and dry cleaning,4,Miscellaneous personal services,SEGD04,CUUR0000SEGD04,CUSR0000SEGD04,CWUR0000SEGD04,expenditure_item
+Financial services,4,Miscellaneous personal services,SEGD05,CUUR0000SEGD05,CUSR0000SEGD05,CWUR0000SEGD05,expenditure_item
+Unsampled items,4,Miscellaneous personal services,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Miscellaneous personal goods,3,Personal care,SEGE,CUUR0000SEGE,CUSR0000SEGE,CWUR0000SEGE,expenditure_item
+Special aggregate indexes,0,,,CUUR0000nan,CUSR0000nan,CWUR0000nan,expenditure_item
+Commodities,1,All items,SAC,CUUR0000SAC,CUSR0000SAC,CWUR0000SAC,special_aggregate
+Commodities less food and beverages,2,Commodities,SACL11,CUUR0000SACL11,CUSR0000SACL11,CWUR0000SACL11,special_aggregate
+Nondurables less food and beverages,3,Commodities less food and beverages,SANL11,CUUR0000SANL11,CUSR0000SANL11,CWUR0000SANL11,special_aggregate
+"Nondurables less food, beverages, and apparel",4,Nondurables less food and beverages,SANL113,CUUR0000SANL113,CUSR0000SANL113,CWUR0000SANL113,special_aggregate
+Durables,3,Commodities less food and beverages,SAD,CUUR0000SAD,CUSR0000SAD,CWUR0000SAD,special_aggregate
+Services,1,All items,SAS,CUUR0000SAS,CUSR0000SAS,CWUR0000SAS,special_aggregate
+Rent of shelter,1,All items,SAS2RS,CUUR0000SAS2RS,CUSR0000SAS2RS,CWUR0000SAS2RS,special_aggregate
+Transportation services,1,All items,SAS4,CUUR0000SAS4,CUSR0000SAS4,CWUR0000SAS4,special_aggregate
+Other services,1,All items,SAS367,CUUR0000SAS367,CUSR0000SAS367,CWUR0000SAS367,special_aggregate
+All items less food,1,All items,SA0L1,CUUR0000SA0L1,CUSR0000SA0L1,CWUR0000SA0L1,special_aggregate
+All items less shelter,1,All items,SA0L2,CUUR0000SA0L2,CUSR0000SA0L2,CWUR0000SA0L2,special_aggregate
+All items less medical care,1,All items,SA0L5,CUUR0000SA0L5,CUSR0000SA0L5,CWUR0000SA0L5,special_aggregate
+Commodities less food,1,All items,SACL1,CUUR0000SACL1,CUSR0000SACL1,CWUR0000SACL1,special_aggregate
+Nondurables less food,1,All items,SANL1,CUUR0000SANL1,CUSR0000SANL1,CWUR0000SANL1,special_aggregate
+Nondurables less food and apparel,1,All items,SANL13,CUUR0000SANL13,CUSR0000SANL13,CWUR0000SANL13,special_aggregate
+Nondurables,1,All items,SAN,CUUR0000SAN,CUSR0000SAN,CWUR0000SAN,special_aggregate
+Apparel less footwear,1,All items,SA311,CUUR0000SA311,CUSR0000SA311,CWUR0000SA311,special_aggregate
+Services less rent of shelter,1,All items,SASL2RS,CUUR0000SASL2RS,CUSR0000SASL2RS,CWUR0000SASL2RS,special_aggregate
+Services less medical care services,1,All items,SASL5,CUUR0000SASL5,CUSR0000SASL5,CWUR0000SASL5,special_aggregate
+Energy,1,All items,SA0E,CUUR0000SA0E,CUSR0000SA0E,CWUR0000SA0E,special_aggregate
+All items less energy,1,All items,SA0LE,CUUR0000SA0LE,CUSR0000SA0LE,CWUR0000SA0LE,special_aggregate
+All items less food and energy,2,All items less energy,SA0L1E,CUUR0000SA0L1E,CUSR0000SA0L1E,CWUR0000SA0L1E,special_aggregate
+Commodities less food and energy commodities,3,All items less food and energy,SACL1E,CUUR0000SACL1E,CUSR0000SACL1E,CWUR0000SACL1E,special_aggregate
+Energy commodities,4,Commodities less food and energy commodities,SACE,CUUR0000SACE,CUSR0000SACE,CWUR0000SACE,special_aggregate
+Services less energy services,3,All items less food and energy,SASLE,CUUR0000SASLE,CUSR0000SASLE,CWUR0000SASLE,special_aggregate
+Domestically produced farm food,1,All items,SAN1D,CUUR0000SAN1D,CUSR0000SAN1D,CWUR0000SAN1D,special_aggregate
+Utilities and public transportation,1,All items,SAS24,CUUR0000SAS24,CUSR0000SAS24,CWUR0000SAS24,special_aggregate
