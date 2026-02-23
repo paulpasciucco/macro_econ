@@ -1,0 +1,120 @@
+key	name	level	line	parent	is_leaf	num_children	bea_pct_change	bea_contributions	bea_quantity_index	bea_price_index	bea_nominal	bea_real
+pce_total	Personal Consumption Expenditures	0	1		False	2	T20401:L1	T20402:L1	T20403:L1	T20404:L1	T20405:L1	T20406:L1
+goods	Goods	1	2	pce_total	False	2	T20401:L2	T20402:L2	T20403:L2	T20404:L2	T20405:L2	T20406:L2
+durable_goods	Durable Goods	2	3	goods	False	4	T20401:L3	T20402:L3	T20403:L3	T20404:L3	T20405:L3	T20406:L3
+motor_vehicles_and_parts	Motor Vehicles and Parts	3	4	durable_goods	False	3	T20401:L4	T20402:L4	T20403:L4	T20404:L4	T20405:L4	T20406:L4
+new_motor_vehicles	New Motor Vehicles	4	5	motor_vehicles_and_parts	True	0	T20401:L5	T20402:L5	T20403:L5	T20404:L5	T20405:L5	T20406:L5
+net_used_motor_vehicles	Net Purchases of Used Motor Vehicles	4	6	motor_vehicles_and_parts	True	0	T20401:L6	T20402:L6	T20403:L6	T20404:L6	T20405:L6	T20406:L6
+motor_vehicle_parts_and_accessories	Motor Vehicle Parts and Accessories	4	7	motor_vehicles_and_parts	True	0	T20401:L7	T20402:L7	T20403:L7	T20404:L7	T20405:L7	T20406:L7
+furnishings_and_durable_household_equipment	Furnishings and Durable Household Equipment	3	8	durable_goods	False	4	T20401:L8	T20402:L8	T20403:L8	T20404:L8	T20405:L8	T20406:L8
+furniture_and_furnishings	Furniture and Furnishings	4	9	furnishings_and_durable_household_equipment	True	0	T20401:L9	T20402:L9	T20403:L9	T20404:L9	T20405:L9	T20406:L9
+household_appliances	Household Appliances	4	10	furnishings_and_durable_household_equipment	True	0	T20401:L10	T20402:L10	T20403:L10	T20404:L10	T20405:L10	T20406:L10
+glassware_tableware_household_utensils	Glassware, Tableware, and Household Utensils	4	11	furnishings_and_durable_household_equipment	True	0	T20401:L11	T20402:L11	T20403:L11	T20404:L11	T20405:L11	T20406:L11
+tools_hardware_outdoor	Tools and Equipment for House and Garden	4	12	furnishings_and_durable_household_equipment	True	0	T20401:L12	T20402:L12	T20403:L12	T20404:L12	T20405:L12	T20406:L12
+recreational_goods_and_vehicles	Recreational Goods and Vehicles	3	13	durable_goods	False	5	T20401:L13	T20402:L13	T20403:L13	T20404:L13	T20405:L13	T20406:L13
+video_audio_photographic_info_processing	Video, Audio, Photographic, and Information Processing Equipment and Media	4	14	recreational_goods_and_vehicles	True	0	T20401:L14	T20402:L14	T20403:L14	T20404:L14	T20405:L14	T20406:L14
+sporting_equipment_supplies_guns	Sporting Equipment, Supplies, Guns, and Ammunition	4	15	recreational_goods_and_vehicles	True	0	T20401:L15	T20402:L15	T20403:L15	T20404:L15	T20405:L15	T20406:L15
+sports_recreational_vehicles	Sports and Recreational Vehicles	4	16	recreational_goods_and_vehicles	True	0	T20401:L16	T20402:L16	T20403:L16	T20404:L16	T20405:L16	T20406:L16
+recreational_books	Recreational Books	4	17	recreational_goods_and_vehicles	True	0	T20401:L17	T20402:L17	T20403:L17	T20404:L17	T20405:L17	T20406:L17
+musical_instruments	Musical Instruments	4	18	recreational_goods_and_vehicles	True	0	T20401:L18	T20402:L18	T20403:L18	T20404:L18	T20405:L18	T20406:L18
+other_durable_goods	Other Durable Goods	3	19	durable_goods	False	5	T20401:L19	T20402:L19	T20403:L19	T20404:L19	T20405:L19	T20406:L19
+jewelry_and_watches	Jewelry and Watches	4	20	other_durable_goods	True	0	T20401:L20	T20402:L20	T20403:L20	T20404:L20	T20405:L20	T20406:L20
+therapeutic_appliances	Therapeutic Appliances and Equipment	4	21	other_durable_goods	True	0	T20401:L21	T20402:L21	T20403:L21	T20404:L21	T20405:L21	T20406:L21
+educational_books	Educational Books	4	22	other_durable_goods	True	0	T20401:L22	T20402:L22	T20403:L22	T20404:L22	T20405:L22	T20406:L22
+luggage_and_similar	Luggage and Similar Personal Items	4	23	other_durable_goods	True	0	T20401:L23	T20402:L23	T20403:L23	T20404:L23	T20405:L23	T20406:L23
+telephone_and_fax_equipment	Telephone and Facsimile Equipment	4	24	other_durable_goods	True	0	T20401:L24	T20402:L24	T20403:L24	T20404:L24	T20405:L24	T20406:L24
+nondurable_goods	Nondurable Goods	2	25	goods	False	4	T20401:L25	T20402:L25	T20403:L25	T20404:L25	T20405:L25	T20406:L25
+food_and_beverages_off_premises	Food and Beverages Purchased for Off-Premises Consumption	3	26	nondurable_goods	False	2	T20401:L26	T20402:L26	T20403:L26	T20404:L26	T20405:L26	T20406:L26
+food_nonalcoholic_off_premises	Food and Nonalcoholic Beverages Purchased for Off-Premises Consumption	4	27	food_and_beverages_off_premises	True	0	T20401:L27	T20402:L27	T20403:L27	T20404:L27	T20405:L27	T20406:L27
+alcohol_off_premises	Alcoholic Beverages Purchased for Off-Premises Consumption	4	28	food_and_beverages_off_premises	True	0	T20401:L28	T20402:L28	T20403:L28	T20404:L28	T20405:L28	T20406:L28
+clothing_and_footwear	Clothing and Footwear	3	29	nondurable_goods	False	2	T20401:L29	T20402:L29	T20403:L29	T20404:L29	T20405:L29	T20406:L29
+garments	Garments	4	30	clothing_and_footwear	False	4	T20401:L30	T20402:L30	T20403:L30	T20404:L30	T20405:L30	T20406:L30
+women_and_girls_clothing	Women's and Girls' Clothing	5	31	garments	True	0	T20401:L31	T20402:L31	T20403:L31	T20404:L31	T20405:L31	T20406:L31
+men_and_boys_clothing	Men's and Boys' Clothing	5	32	garments	True	0	T20401:L32	T20402:L32	T20403:L32	T20404:L32	T20405:L32	T20406:L32
+children_and_infant_clothing	Children's and Infants' Clothing	5	33	garments	True	0	T20401:L33	T20402:L33	T20403:L33	T20404:L33	T20405:L33	T20406:L33
+other_clothing	Other Clothing	5	34	garments	True	0	T20401:L34	T20402:L34	T20403:L34	T20404:L34	T20405:L34	T20406:L34
+footwear	Footwear	4	35	clothing_and_footwear	True	0	T20401:L35	T20402:L35	T20403:L35	T20404:L35	T20405:L35	T20406:L35
+gasoline_and_other_energy_goods	Gasoline and Other Energy Goods	3	36	nondurable_goods	False	2	T20401:L36	T20402:L36	T20403:L36	T20404:L36	T20405:L36	T20406:L36
+motor_vehicle_fuels_lubricants	Motor Vehicle Fuels, Lubricants, and Fluids	4	37	gasoline_and_other_energy_goods	True	0	T20401:L37	T20402:L37	T20403:L37	T20404:L37	T20405:L37	T20406:L37
+fuel_oil_other_fuels	Fuel Oil and Other Fuels	4	38	gasoline_and_other_energy_goods	True	0	T20401:L38	T20402:L38	T20403:L38	T20404:L38	T20405:L38	T20406:L38
+other_nondurable_goods	Other Nondurable Goods	3	39	nondurable_goods	False	7	T20401:L39	T20402:L39	T20403:L39	T20404:L39	T20405:L39	T20406:L39
+pharmaceutical_products	Pharmaceutical and Other Medical Products	4	40	other_nondurable_goods	True	0	T20401:L40	T20402:L40	T20403:L40	T20404:L40	T20405:L40	T20406:L40
+recreational_items	Recreational Items	4	41	other_nondurable_goods	True	0	T20401:L41	T20402:L41	T20403:L41	T20404:L41	T20405:L41	T20406:L41
+household_supplies	Household Supplies	4	42	other_nondurable_goods	True	0	T20401:L42	T20402:L42	T20403:L42	T20404:L42	T20405:L42	T20406:L42
+personal_care_products	Personal Care Products	4	43	other_nondurable_goods	True	0	T20401:L43	T20402:L43	T20403:L43	T20404:L43	T20405:L43	T20406:L43
+tobacco	Tobacco	4	44	other_nondurable_goods	True	0	T20401:L44	T20402:L44	T20403:L44	T20404:L44	T20405:L44	T20406:L44
+magazines_newspapers_stationery	Magazines, Newspapers, and Stationery	4	45	other_nondurable_goods	True	0	T20401:L45	T20402:L45	T20403:L45	T20404:L45	T20405:L45	T20406:L45
+net_foreign_travel_goods	Net Foreign Travel (Goods)	4	46	other_nondurable_goods	False	2	T20401:L46	T20402:L46	T20403:L46	T20404:L46	T20405:L46	T20406:L46
+expenditures_by_us_residents_abroad_goods	Less: Expenditures Abroad by U.S. Residents (Goods)	5	47	net_foreign_travel_goods	True	0	T20401:L47	T20402:L47	T20403:L47	T20404:L47	T20405:L47	T20406:L47
+less_expenditures_by_foreign_residents_goods	Less: Expenditures in U.S. by Foreign Residents (Goods)	5	48	net_foreign_travel_goods	True	0	T20401:L48	T20402:L48	T20403:L48	T20404:L48	T20405:L48	T20406:L48
+services	Services	1	49	pce_total	False	2	T20401:L49	T20402:L49	T20403:L49	T20404:L49	T20405:L49	T20406:L49
+household_consumption_expenditures_services	Household Consumption Expenditures (Services)	2	50	services	False	7	T20401:L50	T20402:L50	T20403:L50	T20404:L50	T20405:L50	T20406:L50
+housing_and_utilities	Housing and Utilities	3	51	household_consumption_expenditures_services	False	2	T20401:L51	T20402:L51	T20403:L51	T20404:L51	T20405:L51	T20406:L51
+housing	Housing	4	52	housing_and_utilities	False	4	T20401:L52	T20402:L52	T20403:L52	T20404:L52	T20405:L52	T20406:L52
+rental_of_tenant_occupied	Rental of Tenant-Occupied Nonfarm Housing	5	53	housing	True	0	T20401:L53	T20402:L53	T20403:L53	T20404:L53	T20405:L53	T20406:L53
+imputed_rental_of_owner_occupied	Imputed Rental of Owner-Occupied Nonfarm Housing	5	54	housing	True	0	T20401:L54	T20402:L54	T20403:L54	T20404:L54	T20405:L54	T20406:L54
+rental_value_farm_dwellings	Rental Value of Farm Dwellings	5	55	housing	True	0	T20401:L55	T20402:L55	T20403:L55	T20404:L55	T20405:L55	T20406:L55
+group_housing	Group Housing	5	56	housing	True	0	T20401:L56	T20402:L56	T20403:L56	T20404:L56	T20405:L56	T20406:L56
+utilities	Household Utilities	4	57	housing_and_utilities	False	4	T20401:L57	T20402:L57	T20403:L57	T20404:L57	T20405:L57	T20406:L57
+water_supply_sanitation	Water Supply and Sanitation	5	58	utilities	True	0	T20401:L58	T20402:L58	T20403:L58	T20404:L58	T20405:L58	T20406:L58
+electricity	Electricity	5	59	utilities	True	0	T20401:L59	T20402:L59	T20403:L59	T20404:L59	T20405:L59	T20406:L59
+natural_gas	Natural Gas	5	60	utilities	True	0	T20401:L60	T20402:L60	T20403:L60	T20404:L60	T20405:L60	T20406:L60
+telephone_and_internet_services	Telecommunication Services	5	61	utilities	True	0	T20401:L61	T20402:L61	T20403:L61	T20404:L61	T20405:L61	T20406:L61
+health_care	Health Care	3	62	household_consumption_expenditures_services	False	3	T20401:L62	T20402:L62	T20403:L62	T20404:L62	T20405:L62	T20406:L62
+outpatient_services	Outpatient Services	4	63	health_care	False	3	T20401:L63	T20402:L63	T20403:L63	T20404:L63	T20405:L63	T20406:L63
+physician_services	Physician Services	5	64	outpatient_services	True	0	T20401:L64	T20402:L64	T20403:L64	T20404:L64	T20405:L64	T20406:L64
+dental_services	Dental Services	5	65	outpatient_services	True	0	T20401:L65	T20402:L65	T20403:L65	T20404:L65	T20405:L65	T20406:L65
+paramedical_services	Paramedical Services	5	66	outpatient_services	True	0	T20401:L66	T20402:L66	T20403:L66	T20404:L66	T20405:L66	T20406:L66
+hospital_and_nursing_home_services	Hospital and Nursing Home Services	4	67	health_care	False	2	T20401:L67	T20402:L67	T20403:L67	T20404:L67	T20405:L67	T20406:L67
+hospitals	Hospitals	5	68	hospital_and_nursing_home_services	True	0	T20401:L68	T20402:L68	T20403:L68	T20404:L68	T20405:L68	T20406:L68
+nursing_homes	Nursing Homes	5	69	hospital_and_nursing_home_services	True	0	T20401:L69	T20402:L69	T20403:L69	T20404:L69	T20405:L69	T20406:L69
+health_insurance	Health Insurance	4	70	health_care	True	0	T20401:L70	T20402:L70	T20403:L70	T20404:L70	T20405:L70	T20406:L70
+transportation_services	Transportation Services	3	71	household_consumption_expenditures_services	False	3	T20401:L71	T20402:L71	T20403:L71	T20404:L71	T20405:L71	T20406:L71
+motor_vehicle_maintenance_and_repair	Motor Vehicle Maintenance and Repair	4	72	transportation_services	True	0	T20401:L72	T20402:L72	T20403:L72	T20404:L72	T20405:L72	T20406:L72
+other_motor_vehicle_services	Other Motor Vehicle Services	4	73	transportation_services	True	0	T20401:L73	T20402:L73	T20403:L73	T20404:L73	T20405:L73	T20406:L73
+public_transportation	Public Transportation	4	74	transportation_services	False	3	T20401:L74	T20402:L74	T20403:L74	T20404:L74	T20405:L74	T20406:L74
+ground_transportation	Ground Transportation	5	75	public_transportation	True	0	T20401:L75	T20402:L75	T20403:L75	T20404:L75	T20405:L75	T20406:L75
+air_transportation	Air Transportation	5	76	public_transportation	True	0	T20401:L76	T20402:L76	T20403:L76	T20404:L76	T20405:L76	T20406:L76
+water_transportation	Water Transportation	5	77	public_transportation	True	0	T20401:L77	T20402:L77	T20403:L77	T20404:L77	T20405:L77	T20406:L77
+recreation_services	Recreation Services	3	78	household_consumption_expenditures_services	False	5	T20401:L78	T20402:L78	T20403:L78	T20404:L78	T20405:L78	T20406:L78
+membership_clubs_participant_sports	Membership Clubs, Sports Centers, Parks, Theaters, and Museums	4	79	recreation_services	True	0	T20401:L79	T20402:L79	T20403:L79	T20404:L79	T20405:L79	T20406:L79
+amusements	Audio-Video, Photographic, and Information Processing Equipment Services	4	80	recreation_services	True	0	T20401:L80	T20402:L80	T20403:L80	T20404:L80	T20405:L80	T20406:L80
+audio_video_photo_info_processing_services	Cable, Satellite, and Other Live Television Services	4	81	recreation_services	True	0	T20401:L81	T20402:L81	T20403:L81	T20404:L81	T20405:L81	T20406:L81
+gambling	Gambling	4	82	recreation_services	True	0	T20401:L82	T20402:L82	T20403:L82	T20404:L82	T20405:L82	T20406:L82
+other_recreational_services	Other Recreational Services	4	83	recreation_services	True	0	T20401:L83	T20402:L83	T20403:L83	T20404:L83	T20405:L83	T20406:L83
+food_services_and_accommodations	Food Services and Accommodations	3	84	household_consumption_expenditures_services	False	2	T20401:L84	T20402:L84	T20403:L84	T20404:L84	T20405:L84	T20406:L84
+food_services	Food Services	4	85	food_services_and_accommodations	False	2	T20401:L85	T20402:L85	T20403:L85	T20404:L85	T20405:L85	T20406:L85
+purchased_meals_and_beverages	Purchased Meals and Beverages	5	86	food_services	True	0	T20401:L86	T20402:L86	T20403:L86	T20404:L86	T20405:L86	T20406:L86
+food_furnished_to_employees	Food Furnished to Employees (Including Military)	5	87	food_services	True	0	T20401:L87	T20402:L87	T20403:L87	T20404:L87	T20405:L87	T20406:L87
+accommodations	Accommodations	4	88	food_services_and_accommodations	True	0	T20401:L88	T20402:L88	T20403:L88	T20404:L88	T20405:L88	T20406:L88
+financial_services_and_insurance	Financial Services and Insurance	3	89	household_consumption_expenditures_services	False	2	T20401:L89	T20402:L89	T20403:L89	T20404:L89	T20405:L89	T20406:L89
+financial_services	Financial Services	4	90	financial_services_and_insurance	True	0	T20401:L90	T20402:L90	T20403:L90	T20404:L90	T20405:L90	T20406:L90
+insurance	Insurance	4	91	financial_services_and_insurance	False	4	T20401:L91	T20402:L91	T20403:L91	T20404:L91	T20405:L91	T20406:L91
+life_insurance	Life Insurance	5	92	insurance	True	0	T20401:L92	T20402:L92	T20403:L92	T20404:L92	T20405:L92	T20406:L92
+net_household_insurance	Net Household Insurance	5	93	insurance	True	0	T20401:L93	T20402:L93	T20403:L93	T20404:L93	T20405:L93	T20406:L93
+net_health_insurance	Net Health Insurance	5	94	insurance	True	0	T20401:L94	T20402:L94	T20403:L94	T20404:L94	T20405:L94	T20406:L94
+net_motor_vehicle_insurance	Net Motor Vehicle and Other Transportation Insurance	5	95	insurance	True	0	T20401:L95	T20402:L95	T20403:L95	T20404:L95	T20405:L95	T20406:L95
+other_services	Other Services	3	96	household_consumption_expenditures_services	False	7	T20401:L96	T20402:L96	T20403:L96	T20404:L96	T20405:L96	T20406:L96
+communication_services	Communication	4	97	other_services	False	2	T20401:L97	T20402:L97	T20403:L97	T20404:L97	T20405:L97	T20406:L97
+postal_and_delivery	Postal and Delivery Services	5	98	communication_services	True	0	T20401:L98	T20402:L98	T20403:L98	T20404:L98	T20405:L98	T20406:L98
+internet_access	Internet Access	5	99	communication_services	True	0	T20401:L99	T20402:L99	T20403:L99	T20404:L99	T20405:L99	T20406:L99
+education_services	Education Services	4	100	other_services	False	3	T20401:L100	T20402:L100	T20403:L100	T20404:L100	T20405:L100	T20406:L100
+higher_education	Higher Education	5	101	education_services	True	0	T20401:L101	T20402:L101	T20403:L101	T20404:L101	T20405:L101	T20406:L101
+nursery_elementary_secondary	Nursery, Elementary, and Secondary Schools	5	102	education_services	True	0	T20401:L102	T20402:L102	T20403:L102	T20404:L102	T20405:L102	T20406:L102
+commercial_vocational_schools	Commercial and Vocational Schools	5	103	education_services	True	0	T20401:L103	T20402:L103	T20403:L103	T20404:L103	T20405:L103	T20406:L103
+professional_and_other_services	Professional and Other Services	4	104	other_services	False	3	T20401:L104	T20402:L104	T20403:L104	T20404:L104	T20405:L104	T20406:L104
+legal_services	Legal Services	5	105	professional_and_other_services	True	0	T20401:L105	T20402:L105	T20403:L105	T20404:L105	T20405:L105	T20406:L105
+accounting_and_tax_prep	Accounting and Tax Return Preparation Services	5	106	professional_and_other_services	True	0	T20401:L106	T20402:L106	T20403:L106	T20404:L106	T20405:L106	T20406:L106
+miscellaneous_professional_services	Miscellaneous Professional Services	5	107	professional_and_other_services	True	0	T20401:L107	T20402:L107	T20403:L107	T20404:L107	T20405:L107	T20406:L107
+personal_care_and_clothing_services	Personal Care and Clothing Services	4	108	other_services	True	0	T20401:L108	T20402:L108	T20403:L108	T20404:L108	T20405:L108	T20406:L108
+social_services_and_religious_activities	Social Services and Religious Activities	4	109	other_services	False	3	T20401:L109	T20402:L109	T20403:L109	T20404:L109	T20405:L109	T20406:L109
+child_care	Child Care	5	110	social_services_and_religious_activities	True	0	T20401:L110	T20402:L110	T20403:L110	T20404:L110	T20405:L110	T20406:L110
+social_assistance	Social Assistance	5	111	social_services_and_religious_activities	True	0	T20401:L111	T20402:L111	T20403:L111	T20404:L111	T20405:L111	T20406:L111
+religious_and_welfare_activities	Religious and Welfare Activities	5	112	social_services_and_religious_activities	True	0	T20401:L112	T20402:L112	T20403:L112	T20404:L112	T20405:L112	T20406:L112
+household_maintenance	Household Maintenance	4	113	other_services	True	0	T20401:L113	T20402:L113	T20403:L113	T20404:L113	T20405:L113	T20406:L113
+net_foreign_travel_services	Net Foreign Travel (Services)	4	114	other_services	False	2	T20401:L114	T20402:L114	T20403:L114	T20404:L114	T20405:L114	T20406:L114
+expenditures_by_us_residents_abroad_services	Expenditures Abroad by U.S. Residents (Services)	5	115	net_foreign_travel_services	True	0	T20401:L115	T20402:L115	T20403:L115	T20404:L115	T20405:L115	T20406:L115
+less_expenditures_by_foreign_residents_services	Less: Expenditures in U.S. by Foreign Residents (Services)	5	116	net_foreign_travel_services	True	0	T20401:L116	T20402:L116	T20403:L116	T20404:L116	T20405:L116	T20406:L116
+final_consumption_expenditures_nonprofit	Final Consumption Expenditures of Nonprofit Institutions Serving Households (NPISHs)	2	117	services	False	2	T20401:L117	T20402:L117	T20403:L117	T20404:L117	T20405:L117	T20406:L117
+gross_output_of_nonprofits	Gross Output of Nonprofit Institutions	3	118	final_consumption_expenditures_nonprofit	True	0	T20401:L118	T20402:L118	T20403:L118	T20404:L118	T20405:L118	T20406:L118
+less_receipts_from_sales_nonprofits	Less: Receipts from Sales of Goods and Services by Nonprofit Institutions	3	119	final_consumption_expenditures_nonprofit	True	0	T20401:L119	T20402:L119	T20403:L119	T20404:L119	T20405:L119	T20406:L119
