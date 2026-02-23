@@ -1,0 +1,29 @@
+key	name	level	line	series_code	parent	is_leaf	bea_gdi_by_income	bea_gdi_shares	bea_national_income
+gdi	Gross Domestic Income	0	1	A261RC		False	T11000:L1	T11100:L1	T11200:L1
+compensation_of_employees	Compensation of Employees, Paid	1	2	A033RC	gdi	False	T11000:L2	T11100:L2	T11200:L2
+wages_and_salaries	Wages and Salaries	2	3	A034RC	compensation_of_employees	False	T11000:L3	T11100:L3	T11200:L3
+wages_government	Government	3	4	A132RC	wages_and_salaries	True	T11000:L4	T11100:L4	T11200:L4
+wages_other	Other	3	5	A133RC	wages_and_salaries	True	T11000:L5	T11100:L5	T11200:L5
+supplements_to_wages_and_salaries	Supplements to Wages and Salaries	2	6	A038RC	compensation_of_employees	False	T11000:L6	T11100:L6	T11200:L6
+employer_contributions_pension_insurance	Employer Contributions for Employee Pension and Insurance Funds	3	7	B040RC	supplements_to_wages_and_salaries	True	T11000:L7	T11100:L7	T11200:L7
+employer_contributions_government_social_insurance	Employer Contributions for Government Social Insurance	3	8	A039RC	supplements_to_wages_and_salaries	True	T11000:L8	T11100:L8	T11200:L8
+taxes_on_production_and_imports	Taxes on Production and Imports	1	9	W054RC	gdi	True	T11000:L9	T11100:L9	T11200:L9
+less_subsidies	Less: Subsidies	1	10	A107RC	gdi	True	T11000:L10	T11100:L10	T11200:L10
+net_operating_surplus	Net Operating Surplus	1	11	A445RC	gdi	False	T11000:L11	T11100:L11	T11200:L11
+net_operating_surplus_private	Private Enterprises	2	12	W273RC	net_operating_surplus	False	T11000:L12	T11100:L12	T11200:L12
+proprietors_income	Proprietors' Income with IVA and CCAdj	3	13	A041RC	net_operating_surplus_private	False	T11000:L13	T11100:L13	T11200:L13
+proprietors_income_farm	Farm	4	14	B042RC	proprietors_income	True	T11000:L14	T11100:L14	T11200:L14
+proprietors_income_nonfarm	Nonfarm	4	15	A043RC	proprietors_income	True	T11000:L15	T11100:L15	T11200:L15
+rental_income_of_persons	Rental Income of Persons with CCAdj	3	16	A048RC	net_operating_surplus_private	True	T11000:L16	T11100:L16	T11200:L16
+corporate_profits	Corporate Profits with IVA and CCAdj	3	17	A446RC	net_operating_surplus_private	False	T11000:L17	T11100:L17	T11200:L17
+corporate_profits_domestic	Domestic Industries	4	18	W274RC	corporate_profits	False	T11000:L18	T11100:L18	T11200:L18
+corporate_profits_financial	Financial	5	19	A463RC	corporate_profits_domestic	True	T11000:L19	T11100:L19	T11200:L19
+corporate_profits_nonfinancial	Nonfinancial	5	20	A464RC	corporate_profits_domestic	True	T11000:L20	T11100:L20	T11200:L20
+corporate_profits_rest_of_world	Rest of the World	4	21	W275RC	corporate_profits	True	T11000:L21	T11100:L21	T11200:L21
+net_interest_and_misc_payments	Net Interest and Miscellaneous Payments on Assets	3	22	W255RC	net_operating_surplus_private	True	T11000:L22	T11100:L22	T11200:L22
+business_current_transfer_payments	Business Current Transfer Payments (Net)	3	23	A061RC	net_operating_surplus_private	True	T11000:L23	T11100:L23	T11200:L23
+current_surplus_of_government_enterprises	Current Surplus of Government Enterprises	2	24	A108RC	net_operating_surplus	True	T11000:L24	T11100:L24	T11200:L24
+consumption_of_fixed_capital	Consumption of Fixed Capital	1	25	A262RC	gdi	False	T11000:L25	T11100:L25	T11200:L25
+cfc_private	Private	2	26	Y702RC	consumption_of_fixed_capital	True	T11000:L26	T11100:L26	T11200:L26
+cfc_government	Government	2	27	A918RC	consumption_of_fixed_capital	True	T11000:L27	T11100:L27	T11200:L27
+statistical_discrepancy	Statistical Discrepancy	1	28	A141RC	gdi	True	T11000:L28	T11100:L28	T11200:L28

@@ -1,0 +1,55 @@
+report	primary_table	key	name	level	line	series_code	parent	is_leaf
+GDP	T10105	gdp	Gross Domestic Product	0	1	A191RC		False
+GDP	T10105	pce	Personal Consumption Expenditures	1	2	DPCERC	gdp	False
+GDP	T10105	pce_goods	Goods	2	3	DGDSRC	pce	False
+GDP	T10105	pce_durable_goods	Durable Goods	3	4	DDURRC	pce_goods	True
+GDP	T10105	pce_nondurable_goods	Nondurable Goods	3	5	DNDGRC	pce_goods	True
+GDP	T10105	pce_services	Services	2	6	DSERRC	pce	True
+GDP	T10105	gross_private_domestic_investment	Gross Private Domestic Investment	1	7	A006RC	gdp	False
+GDP	T10105	fixed_investment	Fixed Investment	2	8	A007RC	gross_private_domestic_investment	False
+GDP	T10105	nonresidential	Nonresidential	3	9	A008RC	fixed_investment	False
+GDP	T10105	structures	Structures	4	10	B009RC	nonresidential	True
+GDP	T10105	equipment	Equipment	4	11	Y033RC	nonresidential	True
+GDP	T10105	intellectual_property_products	Intellectual Property Products	4	12	Y001RC	nonresidential	True
+GDP	T10105	residential	Residential	3	13	A011RC	fixed_investment	True
+GDP	T10105	change_in_private_inventories	Change in Private Inventories	2	14	A014RC	gross_private_domestic_investment	True
+GDP	T10105	net_exports	Net Exports of Goods and Services	1	15	A019RC	gdp	False
+GDP	T10105	exports	Exports	2	16	B020RC	net_exports	False
+GDP	T10105	exports_goods	Goods (Exports)	3	17	A253RC	exports	True
+GDP	T10105	exports_services	Services (Exports)	3	18	A646RC	exports	True
+GDP	T10105	imports	Imports	2	19	B021RC	net_exports	False
+GDP	T10105	imports_goods	Goods (Imports)	3	20	A255RC	imports	True
+GDP	T10105	imports_services	Services (Imports)	3	21	B656RC	imports	True
+GDP	T10105	government	Government Consumption Expenditures and Gross Investment	1	22	A822RC	gdp	False
+GDP	T10105	federal	Federal	2	23	A823RC	government	False
+GDP	T10105	national_defense	National Defense	3	24	A824RC	federal	True
+GDP	T10105	nondefense	Nondefense	3	25	A825RC	federal	True
+GDP	T10105	state_and_local	State and Local	2	26	A829RC	government	True
+GDI	T11000	gdi	Gross Domestic Income	0	1	A261RC		False
+GDI	T11000	compensation_of_employees	Compensation of Employees, Paid	1	2	A033RC	gdi	False
+GDI	T11000	wages_and_salaries	Wages and Salaries	2	3	A034RC	compensation_of_employees	False
+GDI	T11000	wages_government	Government	3	4	A132RC	wages_and_salaries	True
+GDI	T11000	wages_other	Other	3	5	A133RC	wages_and_salaries	True
+GDI	T11000	supplements_to_wages_and_salaries	Supplements to Wages and Salaries	2	6	A038RC	compensation_of_employees	False
+GDI	T11000	employer_contributions_pension_insurance	Employer Contributions for Employee Pension and Insurance Funds	3	7	B040RC	supplements_to_wages_and_salaries	True
+GDI	T11000	employer_contributions_government_social_insurance	Employer Contributions for Government Social Insurance	3	8	A039RC	supplements_to_wages_and_salaries	True
+GDI	T11000	taxes_on_production_and_imports	Taxes on Production and Imports	1	9	W054RC	gdi	True
+GDI	T11000	less_subsidies	Less: Subsidies	1	10	A107RC	gdi	True
+GDI	T11000	net_operating_surplus	Net Operating Surplus	1	11	A445RC	gdi	False
+GDI	T11000	net_operating_surplus_private	Private Enterprises	2	12	W273RC	net_operating_surplus	False
+GDI	T11000	proprietors_income	Proprietors' Income with IVA and CCAdj	3	13	A041RC	net_operating_surplus_private	False
+GDI	T11000	proprietors_income_farm	Farm	4	14	B042RC	proprietors_income	True
+GDI	T11000	proprietors_income_nonfarm	Nonfarm	4	15	A043RC	proprietors_income	True
+GDI	T11000	rental_income_of_persons	Rental Income of Persons with CCAdj	3	16	A048RC	net_operating_surplus_private	True
+GDI	T11000	corporate_profits	Corporate Profits with IVA and CCAdj	3	17	A446RC	net_operating_surplus_private	False
+GDI	T11000	corporate_profits_domestic	Domestic Industries	4	18	W274RC	corporate_profits	False
+GDI	T11000	corporate_profits_financial	Financial	5	19	A463RC	corporate_profits_domestic	True
+GDI	T11000	corporate_profits_nonfinancial	Nonfinancial	5	20	A464RC	corporate_profits_domestic	True
+GDI	T11000	corporate_profits_rest_of_world	Rest of the World	4	21	W275RC	corporate_profits	True
+GDI	T11000	net_interest_and_misc_payments	Net Interest and Miscellaneous Payments on Assets	3	22	W255RC	net_operating_surplus_private	True
+GDI	T11000	business_current_transfer_payments	Business Current Transfer Payments (Net)	3	23	A061RC	net_operating_surplus_private	True
+GDI	T11000	current_surplus_of_government_enterprises	Current Surplus of Government Enterprises	2	24	A108RC	net_operating_surplus	True
+GDI	T11000	consumption_of_fixed_capital	Consumption of Fixed Capital	1	25	A262RC	gdi	False
+GDI	T11000	cfc_private	Private	2	26	Y702RC	consumption_of_fixed_capital	True
+GDI	T11000	cfc_government	Government	2	27	A918RC	consumption_of_fixed_capital	True
+GDI	T11000	statistical_discrepancy	Statistical Discrepancy	1	28	A141RC	gdi	True
