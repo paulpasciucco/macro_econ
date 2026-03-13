@@ -1,11 +1,11 @@
-"""Interactive cross-series viewer for economic data analysis.
+"""Unified interactive viewer for economic data analysis.
 
-Provides a comprehensive widget-based interface for exploring all series
-hierarchies (CPI, PCE, GDP, CES, CPS) with:
-- Hierarchy visualization (Treemap / Sunburst)
-- Single-series drilldown with transforms and date range
-- Multi-series heatmap comparison table
-- Pre-computed scenario selections
+Provides a single consolidated widget-based interface for exploring all
+series hierarchies (CPI, PCE, GDP, CES, CPS) with:
+- Metric-aware data fetching (e.g. CES employment vs earnings, PCE nominal vs price index)
+- Hierarchy visualization (Treemap / Sunburst) driven by CSV/TSV data files
+- Single-series drilldown with transforms, date range, and moving averages
+- Multi-series heatmap comparison table with pre-built scenarios
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ from IPython.display import HTML, clear_output, display
 from macro_econ.series.cpi import build_cpi_tree
 from macro_econ.series.employment import build_ces_tree, build_cps_tree
 from macro_econ.series.gdp import build_gdp_tree
+from macro_econ.series.loaders import METRIC_OPTIONS
 from macro_econ.series.node import SeriesNode
 from macro_econ.series.pce import build_pce_tree
 from macro_econ.viz.styles import DEFAULT_LAYOUT
@@ -31,40 +32,40 @@ from macro_econ.viz.styles import DEFAULT_LAYOUT
 # ---------------------------------------------------------------------------
 SCENARIOS: dict[str, dict[str, list[str]]] = {
     "CPI": {
-        "Core vs Headline": ["CPI", "CPI_CORE", "CPI_SUPERCORE"],
+        "Core vs Headline": ["CPI", "CPI_SA0L1E", "CPI_SASLE"],
         "Shelter Components": [
-            "CPI_SHELTER", "CPI_OER", "CPI_RENT", "CPI_LODGING",
+            "CPI_SAH1", "CPI_SEHC", "CPI_SEHA", "CPI_SEHB",
         ],
         "Food": [
-            "CPI_FOOD", "CPI_FOOD_HOME", "CPI_FOOD_AWAY", "CPI_ALCOHOL",
+            "CPI_SAF1", "CPI_SAF11", "CPI_SEFV", "CPI_SAF2",
         ],
         "Energy": [
-            "CPI_ENERGY", "CPI_MOTOR_FUEL", "CPI_HOUSEHOLD_ENERGY",
-            "CPI_ELEC", "CPI_GAS_UTIL",
+            "CPI_SA0E", "CPI_SETB", "CPI_SAH21",
+            "CPI_SEHF01", "CPI_SEHF02",
         ],
         "Transportation": [
-            "CPI_TRANSPORT", "CPI_NEW_VEH", "CPI_USED_VEH",
-            "CPI_MOTOR_FUEL", "CPI_VEH_INS", "CPI_AIRLINE",
+            "CPI_SAT", "CPI_SETA01", "CPI_SETA02",
+            "CPI_SETB", "CPI_SETE", "CPI_SETG01",
         ],
         "Medical": [
-            "CPI_MEDICAL", "CPI_MED_COMM", "CPI_MED_SVC", "CPI_HEALTH_INS",
+            "CPI_SAM", "CPI_SAM1", "CPI_SAM2", "CPI_SEME",
         ],
         "Major Groups": [
-            "CPI_FOOD_BEV", "CPI_HOUSING", "CPI_APPAREL", "CPI_TRANSPORT",
-            "CPI_MEDICAL", "CPI_REC", "CPI_EDU_COMM", "CPI_OTHER",
+            "CPI_SAF", "CPI_SAH", "CPI_SAA", "CPI_SAT",
+            "CPI_SAM", "CPI_SAR", "CPI_SAE", "CPI_SAG",
         ],
     },
     "PCE": {
-        "Headline vs Core": ["PCE_PI", "PCE_PI_CORE"],
-        "Goods vs Services": ["PCE_GOODS", "PCE_SVC"],
-        "Durable vs Nondurable": ["PCE_DUR", "PCE_NONDUR"],
+        "Goods vs Services": ["PCE", "PCE_GOODS", "PCE_SERVICES"],
+        "Durable vs Nondurable": ["PCE_DURABLE_GOODS", "PCE_NONDURABLE_GOODS"],
         "Services Detail": [
-            "PCE_SVC_HOUSING", "PCE_SVC_HEALTH", "PCE_SVC_TRANS",
-            "PCE_SVC_REC", "PCE_SVC_FOOD", "PCE_SVC_FIN",
+            "PCE_HOUSING_AND_UTILITIES", "PCE_HEALTH_CARE",
+            "PCE_TRANSPORTATION_SERVICES", "PCE_RECREATION_SERVICES",
+            "PCE_FOOD_SERVICES_AND_ACCOMMODATIONS", "PCE_FINANCIAL_SERVICES_AND_INSURANCE",
         ],
-        "Price Indexes": [
-            "PCE_PI", "PCE_PI_CORE", "PCE_PI_GOODS",
-            "PCE_PI_DUR", "PCE_PI_NONDUR", "PCE_PI_SVC",
+        "Motor Vehicles": [
+            "PCE_MOTOR_VEHICLES_AND_PARTS", "PCE_NEW_MOTOR_VEHICLES",
+            "PCE_NET_USED_MOTOR_VEHICLES", "PCE_MOTOR_VEHICLE_PARTS_AND_ACCESSORIES",
         ],
     },
     "GDP": {
@@ -83,14 +84,13 @@ SCENARIOS: dict[str, dict[str, list[str]]] = {
         "Price Measures": ["GDP_DEFL", "GDP_CHAIN_PI"],
     },
     "CES": {
-        "Major Sectors": ["NFP_GOODS", "NFP_SVC", "NFP_GOVT"],
-        "Goods Producing": ["NFP_MINING", "NFP_CONSTR", "NFP_MFG"],
+        "Major Sectors": ["CES_05_000000", "CES_06_000000", "CES_08_000000", "CES_90_000000"],
+        "Goods Producing": ["CES_10_000000", "CES_20_000000", "CES_30_000000"],
         "Service Providing": [
-            "NFP_TTU", "NFP_INFO", "NFP_FIN", "NFP_PBS",
-            "NFP_EDHEALTH", "NFP_LEISURE", "NFP_OTH_SVC",
+            "CES_40_000000", "CES_50_000000", "CES_55_000000", "CES_60_000000",
+            "CES_65_000000", "CES_70_000000", "CES_80_000000",
         ],
-        "Manufacturing": ["NFP_MFG_DUR", "NFP_MFG_NONDUR"],
-        "Earnings & Hours": ["AHE", "AWH", "AHE_PROD", "AWH_PROD"],
+        "Manufacturing": ["CES_31_000000", "CES_32_000000"],
     },
     "CPS": {
         "Headline": ["UR", "LFPR", "EPOP"],
@@ -256,11 +256,12 @@ _TABLE_CSS = """
 # ---------------------------------------------------------------------------
 
 class MacroViewer:
-    """Interactive cross-series viewer for economic data.
+    """Unified interactive viewer for economic data.
 
-    Provides a three-panel control interface with hierarchy visualization,
-    single-series drilldown, and multi-series heatmap comparison — all
-    rendered in a Jupyter notebook via ipywidgets and Plotly.
+    A single consolidated interface combining hierarchy visualization,
+    single-series drilldown, and multi-series heatmap comparison. Supports
+    metric selection for indices that carry multiple data dimensions (e.g.,
+    CES employment vs. earnings, PCE nominal vs. price index).
 
     Args:
         fred: FredClient instance (optional).
@@ -289,7 +290,7 @@ class MacroViewer:
         self._bea = bea
         self._default_start = start_date
 
-        # Build all series trees
+        # Build all series trees (data-file-driven where available)
         self._trees: dict[str, SeriesNode] = {
             "CPI": build_cpi_tree(),
             "PCE": build_pce_tree(),
@@ -298,8 +299,8 @@ class MacroViewer:
             "CPS": build_cps_tree(),
         }
 
-        # Fetched-data cache: (index_key, node_code) -> DataFrame
-        self._data_cache: dict[tuple[str, str], pd.DataFrame] = {}
+        # Fetched-data cache: (index_key, node_code, metric) -> DataFrame
+        self._data_cache: dict[tuple[str, str, str], pd.DataFrame] = {}
 
         self._build_ui()
 
@@ -316,27 +317,39 @@ class MacroViewer:
             value="CPI",
             description="Index:",
             style={"description_width": "auto"},
-            layout=widgets.Layout(width="160px"),
+            layout=widgets.Layout(width="140px"),
+        )
+        self._metric_select = widgets.Dropdown(
+            options=[("Default", "")],
+            value="",
+            description="Metric:",
+            style={"description_width": "auto"},
+            layout=widgets.Layout(width="250px"),
         )
         self._hierarchy_mode = widgets.Dropdown(
             options=["Treemap", "Sunburst"],
             value="Treemap",
             description="Hierarchy:",
             style={"description_width": "auto"},
-            layout=widgets.Layout(width="200px"),
+            layout=widgets.Layout(width="190px"),
         )
         self._run_hierarchy_btn = widgets.Button(
             description="Show Hierarchy",
             button_style="info",
             icon="sitemap",
-            layout=widgets.Layout(width="170px"),
+            layout=widgets.Layout(width="160px"),
         )
         self._top_bar = widgets.HBox(
-            [self._index_select, self._hierarchy_mode, self._run_hierarchy_btn],
+            [
+                self._index_select,
+                self._metric_select,
+                self._hierarchy_mode,
+                self._run_hierarchy_btn,
+            ],
             layout=widgets.Layout(
                 justify_content="flex-start",
                 padding="8px 10px",
-                gap="12px",
+                gap="10px",
                 border="1px solid #ccc",
                 margin="0 0 6px 0",
             ),
@@ -386,7 +399,7 @@ class MacroViewer:
                 widgets.HTML(
                     "<div style='font-weight:bold; padding:2px 0 6px 0; "
                     "border-bottom:1px solid #ccc; margin-bottom:6px'>"
-                    "Specific Index Drilldown</div>"
+                    "Single Series Drilldown</div>"
                 ),
                 self._drilldown_series,
                 self._drilldown_transform,
@@ -402,7 +415,7 @@ class MacroViewer:
             ),
         )
 
-        # ---- Middle panel: Multi-Index Table Select ----
+        # ---- Middle panel: Multi-Series Select ----
         self._scenario_select = widgets.Dropdown(
             options=[],
             description="Scenario:",
@@ -425,7 +438,7 @@ class MacroViewer:
                 widgets.HTML(
                     "<div style='font-weight:bold; padding:2px 0 6px 0; "
                     "border-bottom:1px solid #ccc; margin-bottom:6px'>"
-                    "Multi-Index Table Select</div>"
+                    "Multi-Series Select</div>"
                 ),
                 self._scenario_select,
                 self._load_scenario_btn,
@@ -442,7 +455,7 @@ class MacroViewer:
             ),
         )
 
-        # ---- Right panel: Controls for Table ----
+        # ---- Right panel: Table Controls ----
         self._table_transform = widgets.Dropdown(
             options=TRANSFORMS,
             value="mom",
@@ -489,7 +502,7 @@ class MacroViewer:
                 widgets.HTML(
                     "<div style='font-weight:bold; padding:2px 0 6px 0; "
                     "border-bottom:1px solid #ccc; margin-bottom:6px'>"
-                    "Controls for Table</div>"
+                    "Table Controls</div>"
                 ),
                 self._table_transform,
                 self._table_start,
@@ -520,7 +533,7 @@ class MacroViewer:
             children=[self._out_drilldown, self._out_table, self._out_hierarchy],
         )
         self._tabs.set_title(0, "Single Drilldown")
-        self._tabs.set_title(1, "Multi Select Table")
+        self._tabs.set_title(1, "Multi-Series Table")
         self._tabs.set_title(2, "Index Hierarchy")
 
         # ---- Main container ----
@@ -547,6 +560,19 @@ class MacroViewer:
         """Refresh panel options when the selected index changes."""
         idx = self._index_select.value
         tree = self._trees[idx]
+
+        # Update metric dropdown
+        metric_opts = METRIC_OPTIONS.get(idx, {})
+        if metric_opts:
+            self._metric_select.options = [("Default", "")] + [
+                (label, code) for code, label in metric_opts.items()
+            ]
+            self._metric_select.value = ""
+            self._metric_select.layout.display = ""
+        else:
+            self._metric_select.options = [("Default", "")]
+            self._metric_select.value = ""
+            self._metric_select.layout.display = "none"
 
         # Drilldown: all nodes that have at least one data source
         options = [
@@ -631,20 +657,41 @@ class MacroViewer:
 
     # ---- Data fetching ----
 
+    def _get_metric_source(self, node: SeriesNode, metric: str) -> Any | None:
+        """Find the best source for a node given the selected metric.
+
+        When a metric is specified, prefer sources tagged with that metric.
+        Falls back to any available source when no metric match is found.
+        """
+        if metric:
+            for src in node.sources:
+                if src.extra.get("metric") == metric:
+                    return src
+        # Fall back: prefer FRED, then any source
+        for src in node.sources:
+            if src.source == "fred":
+                return src
+        return node.sources[0] if node.sources else None
+
     def _fetch_node_data(
         self,
         code: str,
         start_date: str | None = None,
         end_date: str | None = None,
+        metric: str = "",
     ) -> pd.DataFrame | None:
-        """Fetch data for a node, trying FRED -> BLS -> BEA in order."""
+        """Fetch data for a node, respecting the selected metric.
+
+        Uses metric-tagged sources when available, falling back to the
+        FRED -> BLS -> BEA priority chain.
+        """
         idx = self._index_select.value
         tree = self._trees[idx]
         node = tree.find(code)
         if node is None:
             return None
 
-        cache_key = (idx, code)
+        cache_key = (idx, code, metric)
         if cache_key in self._data_cache:
             df = self._data_cache[cache_key].copy()
             if start_date:
@@ -653,7 +700,18 @@ class MacroViewer:
                 df = df[df.index <= pd.Timestamp(end_date)]
             return df
 
-        # Try sources in priority order
+        # Get the best source for the requested metric
+        src = self._get_metric_source(node, metric)
+        if src is None:
+            return None
+
+        # Try the matched source first
+        df = self._try_fetch(src, start_date, end_date)
+        if df is not None:
+            self._data_cache[cache_key] = df
+            return df
+
+        # Fallback: try all sources in priority order
         attempts: list[tuple[str, Any]] = [
             ("fred", self._fred),
             ("bls", self._bls),
@@ -662,29 +720,57 @@ class MacroViewer:
         for source_name, client in attempts:
             if client is None:
                 continue
-            src = node.get_source(source_name)
-            if src is None:
-                continue
-            try:
-                if source_name == "bea":
-                    df = client.fetch_series(
-                        src.series_id,
-                        start_date,
-                        end_date,
-                        table=src.extra.get("table"),
-                        line_number=src.extra.get("line_number"),
-                        frequency=src.extra.get("frequency", "M"),
-                    )
-                else:
-                    df = client.fetch_series(
-                        src.series_id, start_date, end_date,
-                    )
-                self._data_cache[cache_key] = df
-                return df
-            except Exception:
-                continue
+            for s in node.sources:
+                if s.source != source_name:
+                    continue
+                if metric and s.extra.get("metric") and s.extra["metric"] != metric:
+                    continue
+                df = self._try_fetch_with_client(client, s, start_date, end_date)
+                if df is not None:
+                    self._data_cache[cache_key] = df
+                    return df
 
         return None
+
+    def _try_fetch(
+        self,
+        src: Any,
+        start_date: str | None,
+        end_date: str | None,
+    ) -> pd.DataFrame | None:
+        """Try fetching from the appropriate client for a source."""
+        client_map = {
+            "fred": self._fred,
+            "bls": self._bls,
+            "bea": self._bea,
+        }
+        client = client_map.get(src.source)
+        if client is None:
+            return None
+        return self._try_fetch_with_client(client, src, start_date, end_date)
+
+    def _try_fetch_with_client(
+        self,
+        client: Any,
+        src: Any,
+        start_date: str | None,
+        end_date: str | None,
+    ) -> pd.DataFrame | None:
+        """Execute a fetch against a specific client and source."""
+        try:
+            if src.source == "bea":
+                return client.fetch_series(
+                    src.series_id,
+                    start_date,
+                    end_date,
+                    table=src.extra.get("table"),
+                    line_number=src.extra.get("line_number"),
+                    frequency=src.extra.get("frequency", "M"),
+                )
+            else:
+                return client.fetch_series(src.series_id, start_date, end_date)
+        except Exception:
+            return None
 
     # ---- Single Drilldown ----
 
@@ -695,16 +781,16 @@ class MacroViewer:
         start_yr = self._drilldown_start.value
         end_yr = self._drilldown_end.value
         avg_periods = _parse_int_list(self._drilldown_avg.value)
+        metric = self._metric_select.value
 
         start_date = f"{start_yr}-01-01"
         end_date = f"{end_yr}-12-31"
-        # Fetch extra history for transforms that look back
         fetch_start = f"{start_yr - 2}-01-01"
 
         with self._out_drilldown:
             clear_output(wait=True)
 
-            df = self._fetch_node_data(code, fetch_start, end_date)
+            df = self._fetch_node_data(code, fetch_start, end_date, metric=metric)
             if df is None or df.empty:
                 print(f"No data for {code}. Check API client configuration.")
                 return
@@ -713,6 +799,10 @@ class MacroViewer:
             node = self._trees[idx].find(code)
             name = node.name if node else code
             transform_label = _TRANSFORM_LABELS.get(transform, transform)
+
+            # Add metric label to title when relevant
+            metric_labels = METRIC_OPTIONS.get(idx, {})
+            metric_suffix = f" ({metric_labels[metric]})" if metric and metric in metric_labels else ""
 
             series = _apply_transform(df, transform)
             series = series[series.index >= pd.Timestamp(start_date)]
@@ -739,7 +829,7 @@ class MacroViewer:
                 ))
 
             fig.update_layout(
-                title=f"{name} — {transform_label}",
+                title=f"{name}{metric_suffix} — {transform_label}",
                 yaxis_title=transform_label,
                 height=450,
                 **DEFAULT_LAYOUT,
@@ -763,7 +853,7 @@ class MacroViewer:
 
         self._tabs.selected_index = 0
 
-    # ---- Multi Select Table ----
+    # ---- Multi-Series Table ----
 
     def _on_run_table(self, _btn: Any) -> None:
         """Build a color-coded comparison heatmap table for selected series."""
@@ -773,6 +863,7 @@ class MacroViewer:
         end_dt = self._table_end.value
         avg_periods = _parse_int_list(self._table_avg_periods.value)
         max_cols = self._table_max_cols.value
+        metric = self._metric_select.value
 
         if not selected_codes:
             with self._out_table:
@@ -790,16 +881,17 @@ class MacroViewer:
 
             idx = self._index_select.value
             tree = self._trees[idx]
+            metric_labels = METRIC_OPTIONS.get(idx, {})
+            metric_suffix = f" ({metric_labels[metric]})" if metric and metric in metric_labels else ""
 
             all_series: dict[str, pd.Series] = {}
             for code in selected_codes:
                 node = tree.find(code)
                 label = node.name if node else code
-                # Fetch extra history so transforms have data
                 fetch_start = (
                     f"{int(start_date[:4]) - 2}-01-01" if start_date else None
                 )
-                df = self._fetch_node_data(code, fetch_start, end_date)
+                df = self._fetch_node_data(code, fetch_start, end_date, metric=metric)
                 if df is not None and not df.empty:
                     s = _apply_transform(df, transform)
                     if start_date:
@@ -841,7 +933,7 @@ class MacroViewer:
             display(HTML(_TABLE_CSS))
             display(HTML(
                 f"<h3 style='margin:0 0 8px 0'>"
-                f"{idx} — Multi-Series Comparison ({transform_label})</h3>"
+                f"{idx}{metric_suffix} — Multi-Series Comparison ({transform_label})</h3>"
             ))
 
             # Color-code numeric cells
@@ -880,7 +972,7 @@ class MacroViewer:
                 hoverongaps=False,
             ))
             fig.update_layout(
-                title=f"{idx} — {transform_label}",
+                title=f"{idx}{metric_suffix} — {transform_label}",
                 height=max(300, len(combined) * 40),
                 margin=dict(l=220, r=30, t=60, b=40),
                 yaxis=dict(autorange="reversed"),

@@ -3,7 +3,7 @@
 Sources:
     - BEA NIPA Tables 1.1.x (GDP and its components)
     - FRED series for headline and major components
-    - Cross-references PCE hierarchy from pce.py
+    - Cross-references the data-driven PCE hierarchy from pce.py
 """
 
 from macro_econ.series.node import SeriesNode, SeriesSource
@@ -24,8 +24,9 @@ def build_gdp_tree(include_pce_detail: bool = False) -> SeriesNode:
     Structure follows BEA NIPA Table 1.1.5 / 1.1.6 (GDP).
 
     Args:
-        include_pce_detail: If True, attach the full PCE sub-tree under the
-            Consumption node. If False, use a collapsed PCE node.
+        include_pce_detail: If True, attach the full (data-driven) PCE
+            sub-tree under the Consumption node. If False, use a
+            collapsed PCE node.
     """
     if include_pce_detail:
         pce_node = build_pce_tree()
@@ -122,16 +123,10 @@ def build_gdp_tree(include_pce_detail: bool = False) -> SeriesNode:
                         code="GDP_X",
                         sources=[_fred("EXPGS"), _bea("T10105", 16)],
                         children=[
-                            SeriesNode(
-                                name="Goods",
-                                code="GDP_X_GOODS",
-                                sources=[_fred("EXPGSC1")],
-                            ),
-                            SeriesNode(
-                                name="Services",
-                                code="GDP_X_SVC",
-                                sources=[_fred("EXPGSSC1")],
-                            ),
+                            SeriesNode(name="Goods", code="GDP_X_GOODS",
+                                       sources=[_fred("EXPGSC1")]),
+                            SeriesNode(name="Services", code="GDP_X_SVC",
+                                       sources=[_fred("EXPGSSC1")]),
                         ],
                     ),
                     SeriesNode(
@@ -139,16 +134,10 @@ def build_gdp_tree(include_pce_detail: bool = False) -> SeriesNode:
                         code="GDP_M",
                         sources=[_fred("IMPGS"), _bea("T10105", 19)],
                         children=[
-                            SeriesNode(
-                                name="Goods",
-                                code="GDP_M_GOODS",
-                                sources=[_fred("IMPGSC1")],
-                            ),
-                            SeriesNode(
-                                name="Services",
-                                code="GDP_M_SVC",
-                                sources=[_fred("IMPGSSC1")],
-                            ),
+                            SeriesNode(name="Goods", code="GDP_M_GOODS",
+                                       sources=[_fred("IMPGSC1")]),
+                            SeriesNode(name="Services", code="GDP_M_SVC",
+                                       sources=[_fred("IMPGSSC1")]),
                         ],
                     ),
                 ],
@@ -164,16 +153,10 @@ def build_gdp_tree(include_pce_detail: bool = False) -> SeriesNode:
                         code="GDP_G_FED",
                         sources=[_fred("FGCE"), _bea("T10105", 23)],
                         children=[
-                            SeriesNode(
-                                name="National Defense",
-                                code="GDP_G_DEF",
-                                sources=[_fred("FDEFX"), _bea("T10105", 24)],
-                            ),
-                            SeriesNode(
-                                name="Nondefense",
-                                code="GDP_G_NONDEF",
-                                sources=[_fred("FNDEFX"), _bea("T10105", 25)],
-                            ),
+                            SeriesNode(name="National Defense", code="GDP_G_DEF",
+                                       sources=[_fred("FDEFX"), _bea("T10105", 24)]),
+                            SeriesNode(name="Nondefense", code="GDP_G_NONDEF",
+                                       sources=[_fred("FNDEFX"), _bea("T10105", 25)]),
                         ],
                     ),
                     SeriesNode(
