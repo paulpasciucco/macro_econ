@@ -3,6 +3,7 @@
 from macro_econ.series.cpi import build_cpi_tree
 from macro_econ.series.employment import build_ces_tree, build_cps_tree, build_employment_trees
 from macro_econ.series.gdp import build_gdp_tree
+from macro_econ.series.loaders import METRIC_OPTIONS, load_ces_hierarchy, load_cpi_hierarchy, load_pce_hierarchy
 from macro_econ.series.node import SeriesNode, SeriesSource
 from macro_econ.series.pce import build_pce_tree
 
@@ -15,4 +16,8 @@ __all__ = [
     "build_ces_tree",
     "build_cps_tree",
     "build_employment_trees",
+    "load_cpi_hierarchy",
+    "load_pce_hierarchy",
+    "load_ces_hierarchy",
+    "METRIC_OPTIONS",
 ]
